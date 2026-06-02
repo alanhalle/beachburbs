@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Palazzo di Monaco",
+    "lat": -14.8116468,
+    "lng": -39.0288169,
+    "score": 98,
+    "breakdown": {
+      "beach": {
+        "count": 3,
+        "score": 40,
+        "maxScore": 40,
+        "label": "Beach Access",
+        "icon": "🏖"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 25,
+        "maxScore": 25,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 20,
+        "score": 15,
+        "maxScore": 15,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 7,
+        "score": 8,
+        "maxScore": 8,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 3,
+        "score": 8,
+        "maxScore": 8,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 6,
+        "score": 2,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      },
+      "transit": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Bus Stop",
+        "icon": "🚌"
+      }
+    }
+  },
+  {
+    "name": "Vila do Aeroporto",
+    "lat": -14.8138531,
+    "lng": -39.0336722,
+    "score": 98,
+    "breakdown": {
+      "beach": {
+        "count": 3,
+        "score": 40,
+        "maxScore": 40,
+        "label": "Beach Access",
+        "icon": "🏖"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 25,
+        "maxScore": 25,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 20,
+        "score": 15,
+        "maxScore": 15,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 7,
+        "score": 8,
+        "maxScore": 8,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 3,
+        "score": 8,
+        "maxScore": 8,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 6,
+        "score": 2,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      },
+      "transit": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Bus Stop",
+        "icon": "🚌"
+      }
+    }
+  },
+  {
+    "name": "Apartamento Pé Na Areia",
+    "lat": -14.8104733,
+    "lng": -39.0246049,
+    "score": 96,
+    "breakdown": {
+      "beach": {
+        "count": 2,
+        "score": 40,
+        "maxScore": 40,
+        "label": "Beach Access",
+        "icon": "🏖"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 25,
+        "maxScore": 25,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 20,
+        "score": 15,
+        "maxScore": 15,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 6,
+        "score": 8,
+        "maxScore": 8,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 8,
+        "maxScore": 8,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      },
+      "transit": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Bus Stop",
+        "icon": "🚌"
+      }
+    }
+  },
+  {
+    "name": "Atlantis Residence",
+    "lat": -14.8055993,
+    "lng": -39.0371664,
+    "score": 74,
+    "breakdown": {
+      "beach": {
+        "count": 1,
+        "score": 20,
+        "maxScore": 40,
+        "label": "Beach Access",
+        "icon": "🏖"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 25,
+        "maxScore": 25,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 15,
+        "score": 15,
+        "maxScore": 15,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 1,
+        "score": 4,
+        "maxScore": 8,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 8,
+        "maxScore": 8,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 6,
+        "score": 2,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      },
+      "transit": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Bus Stop",
+        "icon": "🚌"
+      }
+    }
+  },
+  {
+    "name": "Edifício Baia Marina Residence",
+    "lat": -14.8076647,
+    "lng": -39.0361924,
+    "score": 74,
+    "breakdown": {
+      "beach": {
+        "count": 1,
+        "score": 20,
+        "maxScore": 40,
+        "label": "Beach Access",
+        "icon": "🏖"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 25,
+        "maxScore": 25,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 7,
+        "score": 15,
+        "maxScore": 15,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 3,
+        "score": 8,
+        "maxScore": 8,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 1,
+        "score": 4,
+        "maxScore": 8,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 3,
+        "score": 2,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      },
+      "transit": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Bus Stop",
+        "icon": "🚌"
+      }
+    }
+  }
+]
