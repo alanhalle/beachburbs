@@ -69,16 +69,6 @@ export default function App() {
                 />
               ))}
 
-              <div className="cta-block">
-                <p className="cta-text">
-                  If you want an honest answer about any of these condos — rental reality,
-                  management companies, what the neighborhood is actually like — I'll talk
-                  for an hour.
-                </p>
-                <a className="cta-link" href="mailto:alan@alanhalley.com?subject=Beachburbs%20consultation">
-                  alan@alanhalley.com
-                </a>
-              </div>
             </>
           )}
         </aside>
