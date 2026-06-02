@@ -112,6 +112,87 @@ body {
   font-size: 12px;
 }
 
+/* ── About score ── */
+.about-score {
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-score h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.2px;
+}
+
+.about-score p {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.score-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 4px;
+}
+
+.legend-item {
+  font-size: 11.5px;
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.legend-item.green  { background: rgba(22, 163, 74, 0.1);  color: #16a34a; }
+.legend-item.yellow { background: rgba(202, 138, 4, 0.1);  color: #92400e; }
+.legend-item.red    { background: rgba(220, 38, 38, 0.1);  color: #dc2626; }
+
+.section-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 4px 0 2px;
+}
+
+/* ── CTA ── */
+.cta-block {
+  background: #f0f9ff;
+  border: 1.5px solid #bae6fd;
+  border-radius: 12px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.cta-text {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.cta-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ocean-dark);
+  text-decoration: none;
+}
+
+.cta-link:hover {
+  text-decoration: underline;
+}
+
 /* ── Condo card ── */
 .condo-card {
   background: var(--card-bg);
