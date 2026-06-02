@@ -128,6 +128,20 @@ body {
   font-weight: 700;
   color: var(--text);
   letter-spacing: -0.2px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.beta-badge {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--ocean-dark);
+  background: rgba(14, 165, 233, 0.12);
+  padding: 2px 7px;
+  border-radius: 10px;
 }
 
 .about-score p {
@@ -295,9 +309,15 @@ body {
 .cat-score {
   font-size: 11px;
   color: var(--text-muted);
-  width: 32px;
+  width: 52px;
   text-align: right;
   flex-shrink: 0;
+}
+
+.cat-dist {
+  color: #94a3b8;
+  font-size: 10px;
+  display: block;
 }
 
 /* ── Map panel ── */

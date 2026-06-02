@@ -1,6 +1,6 @@
 import ScoreBadge from './ScoreBadge.jsx'
 
-const CATEGORY_ORDER = ['beach', 'restaurant', 'bar', 'pharmacy', 'grocery', 'atm', 'transit']
+const CATEGORY_ORDER = ['airport', 'beach', 'restaurant', 'bar', 'pharmacy', 'grocery', 'atm']
 
 export default function CondoCard({ condo, rank, isActive, onClick }) {
   return (
@@ -33,7 +33,11 @@ export default function CondoCard({ condo, rank, isActive, onClick }) {
                 <div className="bar-track">
                   <div className="bar-fill" style={{ width: `${pct}%` }} />
                 </div>
-                <span className="cat-score">{cat.score}/{cat.maxScore}</span>
+                <span className="cat-score">
+                  {cat.score}/{cat.maxScore}
+                  {key === 'airport' && cat.distKm != null &&
+                    <span className="cat-dist"> {cat.distKm}km</span>}
+                </span>
               </div>
             )
           })}

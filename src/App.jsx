@@ -31,22 +31,24 @@ export default function App() {
           ) : (
             <>
               <div className="about-score">
-                <h2>Beach Walk Score</h2>
+                <h2>Beach Walk Score <span className="beta-badge">concept</span></h2>
                 <p>
-                  Standard walkability scores are built for cities. They weight transit stops and
-                  office supply stores. That's not what matters when you're deciding where to park
-                  a beach property.
+                  Before you go out to dinner or hit the nightclubs, you have to get there.
+                  Airport proximity is the first number in Beach Walk Score — and the whole
+                  argument for why Ilhéus competes with Santos, Ubatuba, and Porto Seguro for
+                  São Paulo buyers.
                 </p>
                 <p>
-                  Beach Walk Score weights what a beach town actually needs: beach access (40 pts),
-                  restaurants (25 pts), bars and nightlife (15 pts), then pharmacy, grocery, and ATM
-                  for the daily basics. Scores are calculated from Google Places data within an
-                  800-meter walking radius — roughly 10 minutes on foot.
+                  Standard walkability scores weight transit stops and office supply stores.
+                  Beach Walk Score weights what actually matters when you're deciding where to buy
+                  a beach property: airport access (25 pts), beach (30 pts), restaurants (20 pts),
+                  bars (12 pts), pharmacy, grocery, and ATM for the daily basics. Scores are
+                  calculated from Google Places data within 800 meters — roughly 10 minutes on foot.
                 </p>
                 <p>
-                  The scale is 0–100. A 90+ means you can walk to the beach, dinner, and a drink
-                  without touching a car. A 70 means you're close but missing something. Below 50,
-                  you're dependent on wheels for most of daily life.
+                  This is a pilot covering five condominiums in Pontal, Ilhéus. The methodology
+                  is the same one we'll apply to Porto Seguro, Praia do Forte, and other
+                  destinations as the index grows.
                 </p>
                 <div className="score-legend">
                   <span className="legend-item green">90–100 Walker's paradise</span>
@@ -69,9 +71,9 @@ export default function App() {
 
               <div className="cta-block">
                 <p className="cta-text">
-                  I've lived 2 miles from these condos for 17 years. If you want an honest
-                  answer about any of them — rental reality, management companies, what the
-                  neighborhood is actually like — I'll talk for an hour.
+                  If you want an honest answer about any of these condos — rental reality,
+                  management companies, what the neighborhood is actually like — I'll talk
+                  for an hour.
                 </p>
                 <a className="cta-link" href="mailto:alan@alanhalley.com?subject=Beachburbs%20consultation">
                   alan@alanhalley.com
