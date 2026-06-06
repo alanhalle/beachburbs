@@ -26,6 +26,12 @@ const CONDOS = [
   { name: 'Palazzo di Monaco',             address: 'Palazzo di Monaco, Pontal, Ilhéus, BA, Brasil' },
   { name: 'Vila do Aeroporto',             address: 'Vila do Aeroporto, Pontal, Ilhéus, BA, Brasil' },
   { name: 'Apartamento Pé Na Areia',       address: 'Apartamento Pé Na Areia, Pontal, Ilhéus, BA, Brasil' },
+  // Beachburbs strip — south of airport
+  { name: 'Residencial Vernazza',          address: 'Residencial Vernazza, Ilhéus, BA, Brasil' },
+  { name: 'Sette',                         address: 'Sette Residencial, Ilhéus, BA, Brasil' },
+  { name: 'Tons de Brisa',                 address: 'Tons de Brisa, Ilhéus, BA, Brasil' },
+  { name: 'Petra',                         address: 'Residencial Petra, Ilhéus, BA, Brasil' },
+  { name: 'Condomínio Aldeia Atlântida',   address: 'Condomínio Aldeia Atlântida, Ilhéus, BA, Brasil' },
 ]
 
 // Weights sum to 100. Airport is first — it's the whole argument.
