@@ -44,7 +44,7 @@ const TILES = {
   },
 }
 
-export default function MapView({ condos, activeCondo, onSelectCondo }) {
+export default function MapView({ condos, activeCondo, onSelectCondo, strings }) {
   const center = [-14.8089938, -39.0361599]
   const [tileMode, setTileMode] = useState('satellite')
   const tile = TILES[tileMode]
@@ -72,7 +72,7 @@ export default function MapView({ condos, activeCondo, onSelectCondo }) {
               cursor: 'pointer',
             }}
           >
-            {mode === 'street' ? 'Mapa' : 'Satélite'}
+            {mode === 'street' ? (strings?.mapStreet ?? 'Mapa') : (strings?.mapSatellite ?? 'Satélite')}
           </button>
         ))}
       </div>

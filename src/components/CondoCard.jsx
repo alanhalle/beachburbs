@@ -2,7 +2,7 @@ import ScoreBadge from './ScoreBadge.jsx'
 
 const CATEGORY_ORDER = ['airport', 'beach', 'restaurant', 'bar', 'pharmacy', 'grocery', 'atm']
 
-export default function CondoCard({ condo, rank, isActive, onClick }) {
+export default function CondoCard({ condo, rank, isActive, onClick, strings }) {
   return (
     <div
       className={`condo-card ${isActive ? 'active' : ''}`}
@@ -41,7 +41,7 @@ export default function CondoCard({ condo, rank, isActive, onClick }) {
             return (
               <div className="breakdown-row" key={key}>
                 <span className="cat-icon">{cat.icon}</span>
-                <span className="cat-label">{cat.label}</span>
+                <span className="cat-label">{strings?.categories[key] ?? cat.label}</span>
                 <div className="bar-track">
                   <div className="bar-fill" style={{ width: `${pct}%` }} />
                 </div>

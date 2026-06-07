@@ -63,6 +63,36 @@ body {
   font-size: 13px;
 }
 
+.lang-toggle {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.lang-toggle button {
+  background: none;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  padding: 3px 7px;
+  border-radius: 4px;
+  color: #64748b;
+}
+
+.lang-toggle button.active {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.lang-sep {
+  color: #334155;
+  font-size: 12px;
+  user-select: none;
+}
+
 /* ── Layout ── */
 .layout {
   display: flex;
