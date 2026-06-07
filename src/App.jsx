@@ -31,33 +31,33 @@ export default function App() {
           ) : (
             <>
               <div className="about-score">
-                <h2>Beach Walk Score <span className="beta-badge">concept</span></h2>
+                <h2>Beach Walk Score <span className="beta-badge">conceito</span></h2>
                 <p>
-                  Before you go out to dinner or hit the nightclubs, you have to get there.
-                  Airport proximity is the first number in Beach Walk Score — and the whole
-                  argument for why Ilhéus competes with Santos, Ubatuba, and Porto Seguro for
-                  São Paulo buyers.
+                  Antes de sair para jantar ou curtir as baladas, você precisa chegar lá.
+                  A proximidade do aeroporto é o primeiro número do Beach Walk Score — e o principal
+                  argumento de por que Ilhéus concorre com Santos, Ubatuba e Porto Seguro na disputa
+                  pelos compradores paulistas.
                 </p>
                 <p>
-                  Standard walkability scores weight transit stops and office supply stores.
-                  Beach Walk Score weights what actually matters when you're deciding where to buy
-                  a beach property: airport access (25 pts), beach (30 pts), restaurants (20 pts),
-                  bars (12 pts), pharmacy, grocery, and ATM for the daily basics. Scores are
-                  calculated from Google Places data within 800 meters — roughly 10 minutes on foot.
+                  Os índices tradicionais de caminhabilidade valorizam pontos de ônibus e papelarias.
+                  O Beach Walk Score pondera o que realmente importa na hora de escolher um imóvel de
+                  praia: aeroporto (25 pts), praia (30 pts), restaurantes (20 pts), bares (12 pts),
+                  farmácia, mercado e caixa eletrônico para o dia a dia. As pontuações são calculadas
+                  com dados do Google Places em um raio de 800 metros — cerca de 10 minutos a pé.
                 </p>
                 <p>
-                  This is a pilot covering five condominiums in Pontal, Ilhéus. The methodology
-                  is the same one we'll apply to Porto Seguro, Praia do Forte, and other
-                  destinations as the index grows.
+                  Este é um piloto cobrindo condomínios em Pontal, Ilhéus. A mesma metodologia
+                  será aplicada a Porto Seguro, Praia do Forte e outros destinos à medida que
+                  o índice crescer.
                 </p>
                 <div className="score-legend">
-                  <span className="legend-item green">90–100 Walker's paradise</span>
-                  <span className="legend-item yellow">70–89 Very walkable</span>
-                  <span className="legend-item red">Below 70 Car-dependent</span>
+                  <span className="legend-item green">90–100 Paraíso para pedestres</span>
+                  <span className="legend-item yellow">70–89 Muito caminhável</span>
+                  <span className="legend-item red">Abaixo de 70 Depende de carro</span>
                 </div>
               </div>
 
-              <div className="section-label">Pontal, Ilhéus — {condos.length} condominiums ranked</div>
+              <div className="section-label">Pontal, Ilhéus — {condos.length} condomínios classificados</div>
 
               {condos.map((condo, i) => (
                 <CondoCard

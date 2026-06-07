@@ -72,7 +72,7 @@ export default function MapView({ condos, activeCondo, onSelectCondo }) {
               cursor: 'pointer',
             }}
           >
-            {mode === 'street' ? 'Map' : 'Satellite'}
+            {mode === 'street' ? 'Mapa' : 'Satélite'}
           </button>
         ))}
       </div>

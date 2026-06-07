@@ -16,7 +16,7 @@
         "distKm": 3.3,
         "score": 2,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️",
         "note": "~3.3km, not walkable"
       },
@@ -24,15 +24,15 @@
         "count": 1,
         "score": 5,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "Praia da Avenida ~1.9km — urban, no bars, good for walking"
       },
-      "restaurant": { "count": 25, "score": 20, "maxScore": 20, "label": "Restaurants", "icon": "🍽" },
-      "bar": { "count": 20, "score": 12, "maxScore": 12, "label": "Bars & Nightlife", "icon": "🍻" },
-      "pharmacy": { "count": 8, "score": 6, "maxScore": 6, "label": "Pharmacy", "icon": "💊" },
-      "grocery": { "count": 5, "score": 5, "maxScore": 5, "label": "Grocery", "icon": "🛒" },
-      "atm": { "count": 10, "score": 2, "maxScore": 2, "label": "ATM", "icon": "🏧" }
+      "restaurant": { "count": 25, "score": 20, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
+      "bar": { "count": 20, "score": 12, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
+      "pharmacy": { "count": 8, "score": 6, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
+      "grocery": { "count": 5, "score": 5, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
+      "atm": { "count": 10, "score": 2, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
     }
   },
   {
@@ -51,7 +51,7 @@
         "distKm": 3.1,
         "score": 2,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️",
         "note": "~3.1km, not walkable"
       },
@@ -59,15 +59,15 @@
         "count": 1,
         "score": 5,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "Praia da Avenida ~1.6km — urban, no bars, good for walking"
       },
-      "restaurant": { "count": 25, "score": 20, "maxScore": 20, "label": "Restaurants", "icon": "🍽" },
-      "bar": { "count": 20, "score": 12, "maxScore": 12, "label": "Bars & Nightlife", "icon": "🍻" },
-      "pharmacy": { "count": 8, "score": 6, "maxScore": 6, "label": "Pharmacy", "icon": "💊" },
-      "grocery": { "count": 5, "score": 5, "maxScore": 5, "label": "Grocery", "icon": "🛒" },
-      "atm": { "count": 10, "score": 2, "maxScore": 2, "label": "ATM", "icon": "🏧" }
+      "restaurant": { "count": 25, "score": 20, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
+      "bar": { "count": 20, "score": 12, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
+      "pharmacy": { "count": 8, "score": 6, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
+      "grocery": { "count": 5, "score": 5, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
+      "atm": { "count": 10, "score": 2, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
     }
   },
   {
@@ -88,7 +88,7 @@
         "distKm": 2.0,
         "score": 6,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️",
         "note": "~2km, not walkable but closer than Cidade Nova"
       },
@@ -96,7 +96,7 @@
         "count": 1,
         "score": 5,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "Praia da Avenida ~730m — urban, no bars, good for walking. Degraded since port construction."
       },
@@ -104,35 +104,35 @@
         "count": 30,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 25,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 10,
         "score": 6,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 8,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 15,
         "score": 2,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -154,14 +154,14 @@
         "distKm": 0.7,
         "score": 22,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 1,
         "score": 15,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "bay side — ocean beach ~300m across Pontal"
       },
@@ -169,35 +169,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 20,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 7,
         "score": 6,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 3,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 6,
         "score": 2,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -213,49 +213,49 @@
         "distKm": 0.39,
         "score": 25,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 3,
         "score": 30,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖"
       },
       "restaurant": {
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 20,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 7,
         "score": 6,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 3,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 6,
         "score": 2,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -271,14 +271,14 @@
         "distKm": 0.98,
         "score": 19,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 2,
         "score": 30,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "verified beachfront"
       },
@@ -286,35 +286,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 20,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 6,
         "score": 6,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 6,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 1,
         "score": 0.7,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -330,14 +330,14 @@
         "distKm": 1.31,
         "score": 14.9,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 2,
         "score": 30,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "verified beachfront"
       },
@@ -345,35 +345,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 20,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 6,
         "score": 6,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 6,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 1,
         "score": 0.7,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -389,49 +389,49 @@
         "distKm": 0.86,
         "score": 20.5,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 1,
         "score": 15,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖"
       },
       "restaurant": {
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 7,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 3,
         "score": 6,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 1,
         "score": 2.5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 3,
         "score": 2,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -447,49 +447,49 @@
         "distKm": 1.11,
         "score": 17.4,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 1,
         "score": 15,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖"
       },
       "restaurant": {
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 15,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 1,
         "score": 3,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 2,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 6,
         "score": 2,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -510,14 +510,14 @@
         "distKm": 1.7,
         "score": 10.5,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 2,
         "score": 30,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "verified beachfront"
       },
@@ -525,35 +525,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 15,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 4,
         "score": 6,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 1,
         "score": 2.5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -569,14 +569,14 @@
         "distKm": 2.15,
         "score": 4.3,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 2,
         "score": 30,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "verified beachfront"
       },
@@ -584,35 +584,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 11,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 4,
         "score": 6,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 0,
         "score": 0,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -631,14 +631,14 @@
         "distKm": 4.26,
         "score": 0,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 2,
         "score": 30,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "verified beachfront"
       },
@@ -646,35 +646,35 @@
         "count": 19,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 7,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 1,
         "score": 3,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 3,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -695,14 +695,14 @@
         "distKm": 1.7,
         "score": 10.5,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 2,
         "score": 30,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "verified beachfront, Praia dos Milionários"
       },
@@ -710,35 +710,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 15,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 6,
         "score": 6,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 3,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 2,
         "score": 2,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -758,14 +758,14 @@
         "distKm": 1.5,
         "score": 13,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 1,
         "score": 15,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "150m da Praia dos Milionários"
       },
@@ -773,35 +773,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 11,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 2,
         "score": 3,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 2,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -821,14 +821,14 @@
         "distKm": 2.0,
         "score": 6.2,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 1,
         "score": 15,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "a poucos passos da Praia dos Milionários"
       },
@@ -836,35 +836,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 11,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 2,
         "score": 3,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 2,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -885,14 +885,14 @@
         "distKm": 2.0,
         "score": 6.2,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 1,
         "score": 10,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "atravessar BA-001 (4 pistas)"
       },
@@ -900,35 +900,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 11,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 2,
         "score": 3,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 2,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -948,14 +948,14 @@
         "distKm": 2.0,
         "score": 6.2,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 1,
         "score": 15,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "em frente à Cabana Soro Caseiro, Praia dos Milionários"
       },
@@ -963,35 +963,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 11,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 2,
         "score": 3,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 2,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -1011,14 +1011,14 @@
         "distKm": 2.5,
         "score": 3,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 1,
         "score": 15,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "a poucos passos da praia"
       },
@@ -1026,35 +1026,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 11,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 2,
         "score": 3,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 2,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -1074,14 +1074,14 @@
         "distKm": 2.0,
         "score": 6.2,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 1,
         "score": 15,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "200m from beach"
       },
@@ -1089,35 +1089,35 @@
         "count": 20,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 11,
         "score": 12,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 2,
         "score": 3,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 2,
         "score": 5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -1138,14 +1138,14 @@
         "distKm": 7.5,
         "score": 0,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 2,
         "score": 30,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "frente para o mar, vista Praia dos Milionários"
       },
@@ -1153,35 +1153,35 @@
         "count": 12,
         "score": 15,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 5,
         "score": 6,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 0,
         "score": 0,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 1,
         "score": 2.5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
@@ -1197,14 +1197,14 @@
         "distKm": 5.45,
         "score": 0,
         "maxScore": 25,
-        "label": "Airport Access",
+        "label": "Aeroporto",
         "icon": "✈️"
       },
       "beach": {
         "count": 2,
         "score": 30,
         "maxScore": 30,
-        "label": "Beach Access",
+        "label": "Praia",
         "icon": "🏖",
         "note": "verified beachfront"
       },
@@ -1212,35 +1212,35 @@
         "count": 12,
         "score": 20,
         "maxScore": 20,
-        "label": "Restaurants",
+        "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
         "count": 0,
         "score": 0,
         "maxScore": 12,
-        "label": "Bars & Nightlife",
+        "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
         "count": 0,
         "score": 0,
         "maxScore": 6,
-        "label": "Pharmacy",
+        "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
         "count": 1,
         "score": 2.5,
         "maxScore": 5,
-        "label": "Grocery",
+        "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
         "count": 0,
         "score": 0,
         "maxScore": 2,
-        "label": "ATM",
+        "label": "Caixa 24h",
         "icon": "🏧"
       }
     }
