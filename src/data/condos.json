@@ -1,20 +1,24 @@
 [
   {
-    "name": "Residencial Victoria",
-    "lat": -14.7897,
-    "lng": -39.0491,
-    "score": 45,
+    "name": "Farani 221",
+    "lat": -14.7854969,
+    "lng": -39.0344653,
+    "score": 47,
     "scoreNote": "estimated",
-    "note": "Av. Soares Lopes 520, Centro. 10-min Uber to airport (~R$15). Beach exists but reduced since new port built. Listings TBD.",
+    "note": "Cidade Nova. Mixed-use building (galeria below, apts above). Urban beach walkable but unpopular.",
+    "listings": [
+      { "size": "219m²", "bedrooms": 4, "parking": 2, "price": "R$ 1.950.000" },
+      { "size": "219m²", "bedrooms": 4, "parking": 2, "price": "R$ 2.600.000", "note": "Vista mar, IBS listing" }
+    ],
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 6.0,
-        "score": 0,
+        "distKm": 3.3,
+        "score": 2,
         "maxScore": 25,
         "label": "Airport Access",
         "icon": "✈️",
-        "note": "10-min Uber ~R$15 — not walkable"
+        "note": "~3.3km, not walkable"
       },
       "beach": {
         "count": 1,
@@ -22,7 +26,78 @@
         "maxScore": 30,
         "label": "Beach Access",
         "icon": "🏖",
-        "note": "close but degraded since new port construction"
+        "note": "Praia da Avenida ~1.9km — urban, no bars, good for walking"
+      },
+      "restaurant": { "count": 25, "score": 20, "maxScore": 20, "label": "Restaurants", "icon": "🍽" },
+      "bar": { "count": 20, "score": 12, "maxScore": 12, "label": "Bars & Nightlife", "icon": "🍻" },
+      "pharmacy": { "count": 8, "score": 6, "maxScore": 6, "label": "Pharmacy", "icon": "💊" },
+      "grocery": { "count": 5, "score": 5, "maxScore": 5, "label": "Grocery", "icon": "🛒" },
+      "atm": { "count": 10, "score": 2, "maxScore": 2, "label": "ATM", "icon": "🏧" }
+    }
+  },
+  {
+    "name": "Central Park",
+    "lat": -14.7876424,
+    "lng": -39.0341485,
+    "score": 47,
+    "scoreNote": "estimated",
+    "note": "Cidade Nova, next to McDonald's. Built by SSN. Ordinary exterior.",
+    "listings": [
+      { "size": "180m²", "bedrooms": 3, "parking": 3, "price": "R$ 1.800.000", "condoFee": "R$ 650/mês" }
+    ],
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 3.1,
+        "score": 2,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️",
+        "note": "~3.1km, not walkable"
+      },
+      "beach": {
+        "count": 1,
+        "score": 5,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "Praia da Avenida ~1.6km — urban, no bars, good for walking"
+      },
+      "restaurant": { "count": 25, "score": 20, "maxScore": 20, "label": "Restaurants", "icon": "🍽" },
+      "bar": { "count": 20, "score": 12, "maxScore": 12, "label": "Bars & Nightlife", "icon": "🍻" },
+      "pharmacy": { "count": 8, "score": 6, "maxScore": 6, "label": "Pharmacy", "icon": "💊" },
+      "grocery": { "count": 5, "score": 5, "maxScore": 5, "label": "Grocery", "icon": "🛒" },
+      "atm": { "count": 10, "score": 2, "maxScore": 2, "label": "ATM", "icon": "🏧" }
+    }
+  },
+  {
+    "name": "Residencial Victoria",
+    "lat": -14.7971767,
+    "lng": -39.0348178,
+    "score": 51,
+    "scoreNote": "estimated",
+    "note": "Av. Soares Lopes 520, Centro. Possibly the only new building in the historic center.",
+    "listings": [
+      { "size": "141m²", "bedrooms": 3, "price": "R$ 1.914.293" },
+      { "size": "73m²", "bedrooms": 2, "price": "R$ 734.422" }
+    ],
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 2.0,
+        "score": 6,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️",
+        "note": "~2km, not walkable but closer than Cidade Nova"
+      },
+      "beach": {
+        "count": 1,
+        "score": 5,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "Praia da Avenida ~730m — urban, no bars, good for walking. Degraded since port construction."
       },
       "restaurant": {
         "count": 30,
