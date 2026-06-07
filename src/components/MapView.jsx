@@ -45,13 +45,15 @@ const TILES = {
 }
 
 export default function MapView({ condos, activeCondo, onSelectCondo, strings }) {
-  const center = [-14.8089938, -39.0361599]
   const [tileMode, setTileMode] = useState('satellite')
   const tile = TILES[tileMode]
+  const bounds = condos.length > 0
+    ? L.latLngBounds(condos.map(c => [c.lat, c.lng]))
+    : L.latLngBounds([[-14.86, -39.04], [-14.78, -39.03]])
 
   return (
     <div style={{ position: 'relative', height: '100%' }}>
-    <MapContainer center={center} zoom={14} className="map-container" zoomControl>
+    <MapContainer bounds={bounds} boundsOptions={{ padding: [50, 50] }} className="map-container" zoomControl>
       <TileLayer key={tileMode} attribution={tile.attribution} url={tile.url} />
       <div style={{
         position: 'absolute', top: 10, right: 10, zIndex: 1000,
