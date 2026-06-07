@@ -76,7 +76,8 @@
     "lng": -39.0322117,
     "score": 51,
     "scoreNote": "estimated",
-    "note": "Av. Soares Lopes 520, Centro. Possibly the only new building in the historic center.",
+    "address": "Av. Soares Lopes, 520 - Centro, Ilhéus - BA, 45653-005",
+    "note": "Possibly the only new building in the historic center.",
     "listings": [
       { "size": "141m²", "bedrooms": 3, "price": "R$ 1.914.293" },
       { "size": "73m²", "bedrooms": 2, "price": "R$ 734.422" }
