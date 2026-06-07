@@ -1,5 +1,67 @@
 [
   {
+    "name": "Residencial Victoria",
+    "lat": -14.7897,
+    "lng": -39.0491,
+    "score": 45,
+    "scoreNote": "estimated",
+    "note": "Av. Soares Lopes 520, Centro. 10-min Uber to airport (~R$15). Beach exists but reduced since new port built. Listings TBD.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 6.0,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️",
+        "note": "10-min Uber ~R$15 — not walkable"
+      },
+      "beach": {
+        "count": 1,
+        "score": 5,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "close but degraded since new port construction"
+      },
+      "restaurant": {
+        "count": 30,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 25,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 10,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 8,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 15,
+        "score": 2,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
     "name": "Reserva Sapetinga",
     "lat": -14.810,
     "lng": -39.032,
@@ -116,122 +178,6 @@
       "atm": {
         "count": 6,
         "score": 2,
-        "maxScore": 2,
-        "label": "ATM",
-        "icon": "🏧"
-      }
-    }
-  },
-  {
-    "name": "Vila do Aeroporto",
-    "lat": -14.8138531,
-    "lng": -39.0336722,
-    "score": 100,
-    "breakdown": {
-      "airport": {
-        "count": null,
-        "distKm": 0.23,
-        "score": 25,
-        "maxScore": 25,
-        "label": "Airport Access",
-        "icon": "✈️"
-      },
-      "beach": {
-        "count": 3,
-        "score": 30,
-        "maxScore": 30,
-        "label": "Beach Access",
-        "icon": "🏖"
-      },
-      "restaurant": {
-        "count": 20,
-        "score": 20,
-        "maxScore": 20,
-        "label": "Restaurants",
-        "icon": "🍽"
-      },
-      "bar": {
-        "count": 20,
-        "score": 12,
-        "maxScore": 12,
-        "label": "Bars & Nightlife",
-        "icon": "🍻"
-      },
-      "pharmacy": {
-        "count": 7,
-        "score": 6,
-        "maxScore": 6,
-        "label": "Pharmacy",
-        "icon": "💊"
-      },
-      "grocery": {
-        "count": 3,
-        "score": 5,
-        "maxScore": 5,
-        "label": "Grocery",
-        "icon": "🛒"
-      },
-      "atm": {
-        "count": 6,
-        "score": 2,
-        "maxScore": 2,
-        "label": "ATM",
-        "icon": "🏧"
-      }
-    }
-  },
-  {
-    "name": "Apartamento Pé Na Areia",
-    "lat": -14.8104733,
-    "lng": -39.0246049,
-    "score": 94,
-    "breakdown": {
-      "airport": {
-        "count": null,
-        "distKm": 0.84,
-        "score": 20.7,
-        "maxScore": 25,
-        "label": "Airport Access",
-        "icon": "✈️"
-      },
-      "beach": {
-        "count": 2,
-        "score": 30,
-        "maxScore": 30,
-        "label": "Beach Access",
-        "icon": "🏖"
-      },
-      "restaurant": {
-        "count": 20,
-        "score": 20,
-        "maxScore": 20,
-        "label": "Restaurants",
-        "icon": "🍽"
-      },
-      "bar": {
-        "count": 20,
-        "score": 12,
-        "maxScore": 12,
-        "label": "Bars & Nightlife",
-        "icon": "🍻"
-      },
-      "pharmacy": {
-        "count": 6,
-        "score": 6,
-        "maxScore": 6,
-        "label": "Pharmacy",
-        "icon": "💊"
-      },
-      "grocery": {
-        "count": 2,
-        "score": 5,
-        "maxScore": 5,
-        "label": "Grocery",
-        "icon": "🛒"
-      },
-      "atm": {
-        "count": 0,
-        "score": 0,
         "maxScore": 2,
         "label": "ATM",
         "icon": "🏧"
