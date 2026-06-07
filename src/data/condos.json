@@ -1244,5 +1244,53 @@
         "icon": "🏧"
       }
     }
+  },
+  {
+    "name": "Cidadelle Praia do Sul",
+    "lat": -14.855646,
+    "lng": -39.0283091,
+    "score": 57,
+    "scoreNote": "estimated",
+    "breakdown": {
+      "airport": { "count": null, "distKm": 4.9, "score": 0, "maxScore": 25, "label": "Aeroporto", "icon": "✈️" },
+      "beach": { "count": 1, "score": 30, "maxScore": 30, "label": "Praia", "icon": "🏖", "note": "coastal — beachfront assumed" },
+      "restaurant": { "count": 10, "score": 15, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
+      "bar": { "count": 5, "score": 6, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
+      "pharmacy": { "count": 1, "score": 3, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
+      "grocery": { "count": 1, "score": 2.5, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
+      "atm": { "count": 0, "score": 0, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
+    }
+  },
+  {
+    "name": "Reserva Brisa do Mar",
+    "lat": -14.8708368,
+    "lng": -39.0248648,
+    "score": 49,
+    "scoreNote": "estimated",
+    "breakdown": {
+      "airport": { "count": null, "distKm": 6.6, "score": 0, "maxScore": 25, "label": "Aeroporto", "icon": "✈️" },
+      "beach": { "count": 1, "score": 30, "maxScore": 30, "label": "Praia", "icon": "🏖", "note": "coastal — beachfront assumed" },
+      "restaurant": { "count": 7, "score": 10, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
+      "bar": { "count": 4, "score": 6, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
+      "pharmacy": { "count": 0, "score": 0, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
+      "grocery": { "count": 1, "score": 2.5, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
+      "atm": { "count": 0, "score": 0, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
+    }
+  },
+  {
+    "name": "Alphapark Condomínio",
+    "lat": -14.8887611,
+    "lng": -39.0240185,
+    "score": 38,
+    "scoreNote": "estimated",
+    "breakdown": {
+      "airport": { "count": null, "distKm": 8.6, "score": 0, "maxScore": 25, "label": "Aeroporto", "icon": "✈️" },
+      "beach": { "count": 1, "score": 30, "maxScore": 30, "label": "Praia", "icon": "🏖", "note": "coastal — beachfront assumed" },
+      "restaurant": { "count": 4, "score": 5, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
+      "bar": { "count": 2, "score": 3, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
+      "pharmacy": { "count": 0, "score": 0, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
+      "grocery": { "count": 0, "score": 0, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
+      "atm": { "count": 0, "score": 0, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
+    }
   }
 ]
