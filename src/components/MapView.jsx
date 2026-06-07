@@ -1,7 +1,7 @@
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 // Custom score pin icon
 function makeScoreIcon(score, isActive) {
@@ -33,15 +33,49 @@ function FlyTo({ condo }) {
   return null
 }
 
+const TILES = {
+  street: {
+    url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  },
+  satellite: {
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    attribution: 'Tiles &copy; Esri &mdash; Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP',
+  },
+}
+
 export default function MapView({ condos, activeCondo, onSelectCondo }) {
   const center = [-14.8089938, -39.0361599]
+  const [tileMode, setTileMode] = useState('satellite')
+  const tile = TILES[tileMode]
 
   return (
+    <div style={{ position: 'relative', height: '100%' }}>
     <MapContainer center={center} zoom={14} className="map-container" zoomControl>
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
+      <TileLayer key={tileMode} attribution={tile.attribution} url={tile.url} />
+      <div style={{
+        position: 'absolute', top: 10, right: 10, zIndex: 1000,
+        display: 'flex', gap: 4,
+      }}>
+        {['street', 'satellite'].map(mode => (
+          <button
+            key={mode}
+            onClick={() => setTileMode(mode)}
+            style={{
+              padding: '5px 10px',
+              fontSize: 12,
+              fontWeight: tileMode === mode ? 700 : 400,
+              background: tileMode === mode ? '#1e293b' : 'white',
+              color: tileMode === mode ? 'white' : '#1e293b',
+              border: '1px solid #1e293b',
+              borderRadius: 4,
+              cursor: 'pointer',
+            }}
+          >
+            {mode === 'street' ? 'Map' : 'Satellite'}
+          </button>
+        ))}
+      </div>
       {activeCondo && <FlyTo condo={activeCondo} />}
       {condos.map(condo => (
         <Marker
@@ -57,5 +91,6 @@ export default function MapView({ condos, activeCondo, onSelectCondo }) {
         </Marker>
       ))}
     </MapContainer>
+    </div>
   )
 }
