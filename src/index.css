@@ -261,6 +261,30 @@ body {
   color: var(--text-muted);
 }
 
+/* ── Listings ── */
+.card-listings {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.listing-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+.listing-label {
+  color: var(--text-muted, #888);
+}
+.listing-price {
+  font-weight: 600;
+}
+.listing-fees {
+  font-size: 0.78rem;
+  color: var(--text-muted, #888);
+  margin-top: 2px;
+}
+
 /* ── Score breakdown ── */
 .card-breakdown {
   margin-top: 14px;

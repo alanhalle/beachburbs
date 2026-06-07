@@ -1,5 +1,70 @@
 [
   {
+    "name": "Reserva Sapetinga",
+    "lat": -14.810,
+    "lng": -39.032,
+    "score": 82,
+    "scoreNote": "estimated",
+    "listings": [
+      { "size": "80m²", "bedrooms": 2, "price": "R$ 735.000" }
+    ],
+    "condoFee": "R$ 570/mês",
+    "iptu": "R$ 1.700/ano",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 0.7,
+        "score": 22,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "bay side — ocean beach ~300m across Pontal"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 20,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 7,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 3,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 6,
+        "score": 2,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
     "name": "Palazzo di Monaco",
     "lat": -14.8116468,
     "lng": -39.0288169,
@@ -408,6 +473,70 @@
     }
   },
   {
+    "name": "Vista Park",
+    "lat": -14.8272559,
+    "lng": -39.0273191,
+    "score": 84,
+    "scoreNote": "estimated",
+    "listings": [
+      { "size": "61m²", "bedrooms": 2, "price": "R$ 950.000" },
+      { "size": "171m²", "bedrooms": 3, "price": "R$ 1.350.000" }
+    ],
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 1.7,
+        "score": 10.5,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 2,
+        "score": 30,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "verified beachfront"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 15,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 4,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 1,
+        "score": 2.5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
     "name": "Petra",
     "lat": -14.8324722,
     "lng": -39.0256011,
@@ -471,6 +600,9 @@
     "lat": -14.8518647,
     "lng": -39.0253637,
     "score": 70,
+    "listings": [
+      { "size": "31m²", "bedrooms": 1, "price": "R$ 350.000" }
+    ],
     "breakdown": {
       "airport": {
         "count": null,
@@ -512,6 +644,513 @@
       "grocery": {
         "count": 3,
         "score": 5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Ilhéus Select",
+    "lat": -14.828,
+    "lng": -39.027,
+    "score": 85,
+    "scoreNote": "estimated",
+    "listings": [
+      { "size": "84m²", "bedrooms": 2, "price": "R$ 595.000" },
+      { "size": "84m²", "bedrooms": 2, "price": "R$ 1.014.175" }
+    ],
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 1.7,
+        "score": 10.5,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 2,
+        "score": 30,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "verified beachfront, Praia dos Milionários"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 15,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 6,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 3,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 2,
+        "score": 2,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Infinity Park",
+    "lat": -14.823,
+    "lng": -39.027,
+    "score": 63,
+    "scoreNote": "estimated",
+    "listings": [
+      { "size": "30m²", "bedrooms": 1, "price": "R$ 330.000" }
+    ],
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 1.5,
+        "score": 13,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "150m da Praia dos Milionários"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 11,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 2,
+        "score": 3,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Palm Park Residence",
+    "lat": -14.832,
+    "lng": -39.028,
+    "score": 62,
+    "scoreNote": "estimated",
+    "listings": [
+      { "size": "45m²", "bedrooms": 2, "price": "R$ 393.750" }
+    ],
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 2.0,
+        "score": 6.2,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "a poucos passos da Praia dos Milionários"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 11,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 2,
+        "score": 3,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Maunakai Beach Tower",
+    "lat": -14.832,
+    "lng": -39.030,
+    "score": 56,
+    "scoreNote": "estimated",
+    "listings": [
+      { "size": "19m²", "bedrooms": 1, "price": "R$ 245.900" }
+    ],
+    "note": "Na BA-001 — praia do outro lado da rodovia. Construção incerta (fev/2026).",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 2.0,
+        "score": 6.2,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 10,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "atravessar BA-001 (4 pistas)"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 11,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 2,
+        "score": 3,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Costa Mallorca",
+    "lat": -14.833,
+    "lng": -39.0275,
+    "score": 62,
+    "scoreNote": "estimated",
+    "listings": [
+      { "size": "76m²", "bedrooms": 2, "price": "R$ 491.203" }
+    ],
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 2.0,
+        "score": 6.2,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "em frente à Cabana Soro Caseiro, Praia dos Milionários"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 11,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 2,
+        "score": 3,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Antares Residence",
+    "lat": -14.840,
+    "lng": -39.027,
+    "score": 58,
+    "scoreNote": "estimated",
+    "listings": [
+      { "size": "90m²", "bedrooms": 3, "price": "R$ 836.452" }
+    ],
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 2.5,
+        "score": 3,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "a poucos passos da praia"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 11,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 2,
+        "score": 3,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Ilha Bella",
+    "lat": -14.8312,
+    "lng": -39.028,
+    "score": 61,
+    "scoreNote": "estimated",
+    "listings": [
+      { "size": "74m²", "bedrooms": 2, "price": "R$ 611.265" }
+    ],
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 2.0,
+        "score": 6.2,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "200m from beach"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 11,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 2,
+        "score": 3,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Grocery",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "ATM",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Unique Park Residence",
+    "lat": -14.875,
+    "lng": -39.023,
+    "score": 54,
+    "scoreNote": "estimated",
+    "listings": [
+      { "size": "169m²", "bedrooms": 3, "price": "R$ 1.300.000" }
+    ],
+    "note": "Prédio mais alto de Ilhéus. Av. Tancredo Neves Km9 — aeroporto fora do alcance.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 7.5,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Airport Access",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 2,
+        "score": 30,
+        "maxScore": 30,
+        "label": "Beach Access",
+        "icon": "🏖",
+        "note": "frente para o mar, vista Praia dos Milionários"
+      },
+      "restaurant": {
+        "count": 12,
+        "score": 15,
+        "maxScore": 20,
+        "label": "Restaurants",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 5,
+        "score": 6,
+        "maxScore": 12,
+        "label": "Bars & Nightlife",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 6,
+        "label": "Pharmacy",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 1,
+        "score": 2.5,
         "maxScore": 5,
         "label": "Grocery",
         "icon": "🛒"

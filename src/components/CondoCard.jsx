@@ -20,6 +20,18 @@ export default function CondoCard({ condo, rank, isActive, onClick }) {
         <ScoreBadge score={condo.score} size="lg" />
       </div>
 
+      {isActive && condo.listings && condo.listings.length > 0 && (
+        <div className="card-listings">
+          {condo.listings.map((l, i) => (
+            <div className="listing-row" key={i}>
+              <span className="listing-label">{l.size}{l.bedrooms ? ` · ${l.bedrooms}Q` : ''}</span>
+              <span className="listing-price">{l.price}</span>
+            </div>
+          ))}
+          {condo.condoFee && <div className="listing-fees">Condomínio {condo.condoFee}{condo.iptu ? ` · IPTU ${condo.iptu}` : ''}</div>}
+        </div>
+      )}
+
       {isActive && condo.breakdown && (
         <div className="card-breakdown">
           {CATEGORY_ORDER.map(key => {
