@@ -21,7 +21,7 @@ export default function App() {
             <span className="brand-name">beachburbs</span>
             <span className="brand-dot">.com</span>
           </div>
-          <div className="header-tagline">Beach Walk Score — Pontal, Ilhéus</div>
+          <div className="header-tagline">{s.tagline}</div>
           <div className="lang-toggle">
             <button className={lang === 'pt' ? 'active' : ''} onClick={() => setLang('pt')}>PT</button>
             <span className="lang-sep">/</span>

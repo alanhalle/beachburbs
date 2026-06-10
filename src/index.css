@@ -385,6 +385,32 @@ body {
   height: 100%;
 }
 
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .main-split {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .cards-panel {
+    width: 100%;
+    flex-shrink: 0;
+    overflow-y: visible;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .map-panel {
+    flex: none;
+    height: 280px;
+    flex-shrink: 0;
+  }
+
+  .header-tagline {
+    font-size: 11px;
+  }
+}
+
 /* ── Leaflet overrides ── */
 .leaflet-popup-content-wrapper {
   border-radius: 8px;
