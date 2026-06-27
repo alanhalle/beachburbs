@@ -6,10 +6,8 @@
     "score": 47,
     "scoreNote": "estimated",
     "note": "Cidade Nova. Mixed-use building (galeria below, apts above). Urban beach walkable but unpopular.",
-    "listings": [
-      { "size": "219m²", "bedrooms": 4, "parking": 2, "price": "R$ 1.950.000" },
-      { "size": "219m²", "bedrooms": 4, "parking": 2, "price": "R$ 2.600.000", "note": "Vista mar, IBS listing" }
-    ],
+    "units": "4 quartos · 219 m²",
+    "priceRange": "R$ 1,95 – 2,6 mi",
     "breakdown": {
       "airport": {
         "count": null,
@@ -42,9 +40,9 @@
     "score": 47,
     "scoreNote": "estimated",
     "note": "Cidade Nova, next to McDonald's. Built by SSN. Ordinary exterior.",
-    "listings": [
-      { "size": "180m²", "bedrooms": 3, "parking": 3, "price": "R$ 1.800.000", "condoFee": "R$ 650/mês" }
-    ],
+    "units": "3 quartos · 180 m²",
+    "priceRange": "R$ 1,8 mi",
+    "condoFee": "R$ 650/mês",
     "breakdown": {
       "airport": {
         "count": null,
@@ -78,10 +76,8 @@
     "scoreNote": "estimated",
     "address": "Av. Soares Lopes, 520 - Centro, Ilhéus - BA, 45653-005",
     "note": "Possibly the only new building in the historic center.",
-    "listings": [
-      { "size": "141m²", "bedrooms": 3, "price": "R$ 1.914.293" },
-      { "size": "73m²", "bedrooms": 2, "price": "R$ 734.422" }
-    ],
+    "units": "2–3 quartos · 73–141 m²",
+    "priceRange": "R$ 734 mil – 1,9 mi",
     "breakdown": {
       "airport": {
         "count": null,
@@ -143,9 +139,8 @@
     "lng": -39.0390987,
     "score": 82,
     "scoreNote": "estimated",
-    "listings": [
-      { "size": "80m²", "bedrooms": 2, "price": "R$ 735.000" }
-    ],
+    "units": "2 quartos · 80 m²",
+    "priceRange": "R$ 735 mil",
     "condoFee": "R$ 570/mês",
     "iptu": "R$ 1.700/ano",
     "breakdown": {
@@ -500,10 +495,8 @@
     "lng": -39.0273191,
     "score": 84,
     "scoreNote": "estimated",
-    "listings": [
-      { "size": "61m²", "bedrooms": 2, "price": "R$ 950.000" },
-      { "size": "171m²", "bedrooms": 3, "price": "R$ 1.350.000" }
-    ],
+    "units": "2–3 quartos · 61–171 m²",
+    "priceRange": "R$ 950 mil – 1,35 mi",
     "breakdown": {
       "airport": {
         "count": null,
@@ -622,9 +615,8 @@
     "lat": -14.8518647,
     "lng": -39.0253637,
     "score": 70,
-    "listings": [
-      { "size": "31m²", "bedrooms": 1, "price": "R$ 350.000" }
-    ],
+    "units": "1 quarto · 31 m²",
+    "priceRange": "R$ 350 mil",
     "breakdown": {
       "airport": {
         "count": null,
@@ -685,10 +677,8 @@
     "lng": -39.0263537,
     "score": 85,
     "scoreNote": "estimated",
-    "listings": [
-      { "size": "84m²", "bedrooms": 2, "price": "R$ 595.000" },
-      { "size": "84m²", "bedrooms": 2, "price": "R$ 1.014.175" }
-    ],
+    "units": "2 quartos · 84 m²",
+    "priceRange": "R$ 595 mil – 1,01 mi",
     "breakdown": {
       "airport": {
         "count": null,
@@ -749,9 +739,8 @@
     "lng": -39.0266789,
     "score": 63,
     "scoreNote": "estimated",
-    "listings": [
-      { "size": "30m²", "bedrooms": 1, "price": "R$ 330.000" }
-    ],
+    "units": "1 quarto · 30 m²",
+    "priceRange": "R$ 330 mil",
     "breakdown": {
       "airport": {
         "count": null,
@@ -812,9 +801,8 @@
     "lng": -39.0265385,
     "score": 62,
     "scoreNote": "estimated",
-    "listings": [
-      { "size": "45m²", "bedrooms": 2, "price": "R$ 393.750" }
-    ],
+    "units": "2 quartos · 45 m²",
+    "priceRange": "R$ 394 mil",
     "breakdown": {
       "airport": {
         "count": null,
@@ -875,9 +863,8 @@
     "lng": -39.0253633,
     "score": 56,
     "scoreNote": "estimated",
-    "listings": [
-      { "size": "19m²", "bedrooms": 1, "price": "R$ 245.900" }
-    ],
+    "units": "1 quarto · 19 m²",
+    "priceRange": "R$ 246 mil",
     "note": "Na BA-001 — praia do outro lado da rodovia. Construção incerta (fev/2026).",
     "breakdown": {
       "airport": {
@@ -939,9 +926,8 @@
     "lng": -39.0259053,
     "score": 62,
     "scoreNote": "estimated",
-    "listings": [
-      { "size": "76m²", "bedrooms": 2, "price": "R$ 491.203" }
-    ],
+    "units": "2 quartos · 76 m²",
+    "priceRange": "R$ 491 mil",
     "breakdown": {
       "airport": {
         "count": null,
@@ -997,14 +983,33 @@
     }
   },
   {
+    "name": "D'Ouro Park Residencial",
+    "lat": -14.8461215,
+    "lng": -39.0270325,
+    "score": 55,
+    "scoreNote": "estimated",
+    "units": "2 quartos · 60 m²",
+    "priceRange": "R$ 550 mil",
+    "condoFee": "R$ 500/mês",
+    "note": "Nossa Senhora da Vitória. Vista mar, voltada para Olivença (sul). 2 elevadores, lazer completo.",
+    "breakdown": {
+      "airport": { "count": null, "distKm": 3.6, "score": 0, "maxScore": 25, "label": "Aeroporto", "icon": "✈️" },
+      "beach": { "count": 1, "score": 15, "maxScore": 30, "label": "Praia", "icon": "🏖", "note": "vista mar — verificar acesso à areia" },
+      "restaurant": { "count": 20, "score": 20, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
+      "bar": { "count": 11, "score": 12, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
+      "pharmacy": { "count": 2, "score": 3, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
+      "grocery": { "count": 2, "score": 5, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
+      "atm": { "count": 0, "score": 0, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
+    }
+  },
+  {
     "name": "Antares Residence",
     "lat": -14.8055941,
     "lng": -39.0373327,
     "score": 58,
     "scoreNote": "estimated",
-    "listings": [
-      { "size": "90m²", "bedrooms": 3, "price": "R$ 836.452" }
-    ],
+    "units": "3 quartos · 90 m²",
+    "priceRange": "R$ 836 mil",
     "breakdown": {
       "airport": {
         "count": null,
@@ -1065,9 +1070,8 @@
     "lng": -39.026959,
     "score": 61,
     "scoreNote": "estimated",
-    "listings": [
-      { "size": "74m²", "bedrooms": 2, "price": "R$ 611.265" }
-    ],
+    "units": "2 quartos · 74 m²",
+    "priceRange": "R$ 611 mil",
     "breakdown": {
       "airport": {
         "count": null,
@@ -1128,9 +1132,8 @@
     "lng": -39.0251213,
     "score": 54,
     "scoreNote": "estimated",
-    "listings": [
-      { "size": "169m²", "bedrooms": 3, "price": "R$ 1.300.000" }
-    ],
+    "units": "3 quartos · 169 m²",
+    "priceRange": "R$ 1,3 mi",
     "note": "Prédio mais alto de Ilhéus. Av. Tancredo Neves Km9 — aeroporto fora do alcance.",
     "breakdown": {
       "airport": {

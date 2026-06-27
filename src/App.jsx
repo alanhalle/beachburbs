@@ -48,6 +48,7 @@ export default function App() {
                   <span className="legend-item yellow">{s.legendYellow}</span>
                   <span className="legend-item red">{s.legendRed}</span>
                 </div>
+                <p className="price-asof">{s.priceAsOf}</p>
               </div>
 
               <div className="section-label">{s.sectionLabel(condos.length)}</div>
