@@ -392,22 +392,24 @@ body {
     overflow-y: auto;
   }
 
+  /* Map first on a phone — the site opens to a map, not prose. */
+  .map-panel {
+    order: -1;
+    flex: none;
+    height: 55vh;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
   .cards-panel {
     width: 100%;
     flex-shrink: 0;
     overflow-y: visible;
     border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .map-panel {
-    flex: none;
-    height: 280px;
-    flex-shrink: 0;
   }
 
   .header-tagline {
-    font-size: 11px;
+    display: none;
   }
 }
 

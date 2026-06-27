@@ -88,7 +88,7 @@ export default function MapView({ condos, activeCondo, onSelectCondo, strings })
         >
           <Popup>
             <strong>{condo.name}</strong><br />
-            Beach Walk Score: <strong>{condo.score}</strong>
+            {strings?.scoreLabel ?? 'Beach Score'}: <strong>{condo.score}</strong>
           </Popup>
         </Marker>
       ))}

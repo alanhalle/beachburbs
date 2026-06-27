@@ -5,7 +5,7 @@ import MapView from './components/MapView.jsx'
 import { strings } from './i18n.js'
 
 export default function App() {
-  const [activeCondo, setActiveCondo] = useState(condos[0] ?? null)
+  const [activeCondo, setActiveCondo] = useState(null)
   const [lang, setLang] = useState('pt')
   const s = strings[lang]
 
@@ -39,7 +39,7 @@ export default function App() {
           ) : (
             <>
               <div className="about-score">
-                <h2>Beach Walk Score <span className="beta-badge">{s.badge}</span></h2>
+                <h2>{s.scoreTitle} <span className="beta-badge">{s.badge}</span></h2>
                 <p>{s.p1}</p>
                 <p>{s.p2}</p>
                 <p>{s.p3}</p>
