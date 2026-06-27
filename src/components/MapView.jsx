@@ -12,8 +12,8 @@ function makeScoreIcon(score, isActive) {
     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="52" viewBox="0 0 44 52">
       <path d="M22 2C12.06 2 4 10.06 4 20c0 13 18 30 18 30s18-17 18-30C40 10.06 31.94 2 22 2z"
         fill="${color}" stroke="${border}" stroke-width="2"/>
-      <circle cx="22" cy="20" r="12" fill="white" opacity="0.9"/>
-      <text x="22" y="24" text-anchor="middle" fill="${color}" font-weight="700"
+      <circle cx="22" cy="20" r="12" fill="#111" opacity="0.92"/>
+      <text x="22" y="24" text-anchor="middle" fill="#fff" font-weight="700"
         font-size="12" font-family="system-ui,sans-serif">${score}</text>
     </svg>`
   return L.divIcon({

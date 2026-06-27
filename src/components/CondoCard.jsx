@@ -15,7 +15,7 @@ export default function CondoCard({ condo, rank, isActive, onClick, strings }) {
         <div className="rank">#{rank}</div>
         <div className="card-title">
           <h3>{condo.name}</h3>
-          <span className="location">Pontal, Ilhéus, BA</span>
+          <span className="location">{condo.neighborhood ? `${condo.neighborhood}, Ilhéus, BA` : 'Ilhéus, BA'}</span>
         </div>
         <ScoreBadge score={condo.score} size="lg" />
       </div>

@@ -3,7 +3,7 @@
     "name": "Farani 221",
     "lat": -14.7854969,
     "lng": -39.0344653,
-    "score": 47,
+    "score": 46,
     "scoreNote": "estimated",
     "note": "Cidade Nova. Mixed-use building (galeria below, apts above). Urban beach walkable but unpopular.",
     "units": "4 quartos · 219 m²",
@@ -11,8 +11,8 @@
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 3.3,
-        "score": 2,
+        "distKm": 3.18,
+        "score": 0,
         "maxScore": 25,
         "label": "Aeroporto",
         "icon": "✈️",
@@ -26,18 +26,48 @@
         "icon": "🏖",
         "note": "Praia da Avenida ~1.9km — urban, no bars, good for walking"
       },
-      "restaurant": { "count": 25, "score": 20, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
-      "bar": { "count": 20, "score": 12, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
-      "pharmacy": { "count": 8, "score": 6, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
-      "grocery": { "count": 5, "score": 5, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
-      "atm": { "count": 10, "score": 2, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 6,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 4,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 1,
+        "score": 2.5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 1,
+        "score": 0.7,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
     }
   },
   {
     "name": "Central Park",
     "lat": -14.7876424,
     "lng": -39.0341485,
-    "score": 47,
+    "score": 46,
     "scoreNote": "estimated",
     "note": "Cidade Nova, next to McDonald's. Built by SSN. Ordinary exterior.",
     "units": "3 quartos · 180 m²",
@@ -46,8 +76,8 @@
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 3.1,
-        "score": 2,
+        "distKm": 2.94,
+        "score": 0,
         "maxScore": 25,
         "label": "Aeroporto",
         "icon": "✈️",
@@ -61,18 +91,48 @@
         "icon": "🏖",
         "note": "Praia da Avenida ~1.6km — urban, no bars, good for walking"
       },
-      "restaurant": { "count": 25, "score": 20, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
-      "bar": { "count": 20, "score": 12, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
-      "pharmacy": { "count": 8, "score": 6, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
-      "grocery": { "count": 5, "score": 5, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
-      "atm": { "count": 10, "score": 2, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 11,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 7,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 1,
+        "score": 2.5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 1,
+        "score": 0.7,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
     }
   },
   {
     "name": "Residencial Victoria",
     "lat": -14.7971433,
     "lng": -39.0322117,
-    "score": 51,
+    "score": 58,
     "scoreNote": "estimated",
     "address": "Av. Soares Lopes, 520 - Centro, Ilhéus - BA, 45653-005",
     "note": "Possibly the only new building in the historic center.",
@@ -81,8 +141,8 @@
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 2.0,
-        "score": 6,
+        "distKm": 1.87,
+        "score": 7.8,
         "maxScore": 25,
         "label": "Aeroporto",
         "icon": "✈️",
@@ -97,35 +157,35 @@
         "note": "Praia da Avenida ~730m — urban, no bars, good for walking. Degraded since port construction."
       },
       "restaurant": {
-        "count": 30,
+        "count": 20,
         "score": 20,
         "maxScore": 20,
         "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
-        "count": 25,
+        "count": 20,
         "score": 12,
         "maxScore": 12,
         "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
-        "count": 10,
+        "count": 20,
         "score": 6,
         "maxScore": 6,
         "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
-        "count": 8,
+        "count": 4,
         "score": 5,
         "maxScore": 5,
         "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
-        "count": 15,
+        "count": 7,
         "score": 2,
         "maxScore": 2,
         "label": "Caixa 24h",
@@ -137,7 +197,7 @@
     "name": "Reserva Sapetinga",
     "lat": -14.8103055,
     "lng": -39.0390987,
-    "score": 82,
+    "score": 77,
     "scoreNote": "estimated",
     "units": "2 quartos · 80 m²",
     "priceRange": "R$ 735 mil",
@@ -146,8 +206,8 @@
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 0.7,
-        "score": 22,
+        "distKm": 0.91,
+        "score": 19.9,
         "maxScore": 25,
         "label": "Aeroporto",
         "icon": "✈️"
@@ -161,35 +221,35 @@
         "note": "bay side — ocean beach ~300m across Pontal"
       },
       "restaurant": {
-        "count": 20,
+        "count": 17,
         "score": 20,
         "maxScore": 20,
         "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
-        "count": 20,
+        "count": 5,
         "score": 12,
         "maxScore": 12,
         "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
-        "count": 7,
+        "count": 2,
         "score": 6,
         "maxScore": 6,
         "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
-        "count": 3,
-        "score": 5,
+        "count": 1,
+        "score": 2.5,
         "maxScore": 5,
         "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
-        "count": 6,
+        "count": 3,
         "score": 2,
         "maxScore": 2,
         "label": "Caixa 24h",
@@ -263,6 +323,8 @@
     "lat": -14.8216272,
     "lng": -39.0270296,
     "score": 93,
+    "units": "2–3 quartos · 71–96 m²",
+    "note": "São Francisco. A um quarteirão da praia. Porcelanato, sala integrada, varandas com vista lateral do mar. Piscina adulto/infantil, lazer no rooftop, salão de festas, coworking.",
     "breakdown": {
       "airport": {
         "count": null,
@@ -278,7 +340,7 @@
         "maxScore": 30,
         "label": "Praia",
         "icon": "🏖",
-        "note": "verified beachfront"
+        "note": "a um quarteirão da praia (São Francisco) — rever de 'beachfront'"
       },
       "restaurant": {
         "count": 20,
@@ -302,7 +364,7 @@
         "icon": "💊"
       },
       "grocery": {
-        "count": 6,
+        "count": 7,
         "score": 5,
         "maxScore": 5,
         "label": "Mercado",
@@ -322,6 +384,10 @@
     "lat": -14.8250883,
     "lng": -39.027487,
     "score": 89,
+    "neighborhood": "São Francisco",
+    "units": "Studios 31 m² · 1–2 quartos",
+    "priceRange": "R$ 380 – 400 mil (studio)",
+    "note": "Lançamento Almeida Carneiro, São Francisco. Tech-forward — maioria studios, poucas unidades de 1–2 quartos. Rooftop com piscina, coworking, marketplace, bicicletário, lavanderia, salão de festas.",
     "breakdown": {
       "airport": {
         "count": null,
@@ -361,7 +427,7 @@
         "icon": "💊"
       },
       "grocery": {
-        "count": 6,
+        "count": 7,
         "score": 5,
         "maxScore": 5,
         "label": "Mercado",
@@ -381,6 +447,10 @@
     "lat": -14.8076647,
     "lng": -39.0361924,
     "score": 78,
+    "neighborhood": "Pontal",
+    "units": "3–4 quartos · 109–144 m²",
+    "priceRange": "R$ 750 mil – 1 mi+",
+    "note": "Av. Lomanto Júnior, 500, Pontal (não São Francisco). Lado baía — vista para a Baía do Pontal, igual aos vizinhos. Porcelanato, varandas. Piscina, academia, churrasqueira. Sem concierge.",
     "breakdown": {
       "airport": {
         "count": null,
@@ -439,6 +509,9 @@
     "lat": -14.8055993,
     "lng": -39.0371664,
     "score": 74,
+    "units": "2 suítes · 75–78 m²",
+    "priceRange": "R$ 530 – 600 mil",
+    "note": "Av. Lomanto Júnior, 256, Pontal. Lado baía (mesma vista do Baía Marina). Varandas amplas.",
     "breakdown": {
       "airport": {
         "count": null,
@@ -496,15 +569,15 @@
     "name": "Vista Park",
     "lat": -14.8272559,
     "lng": -39.0273191,
-    "score": 84,
+    "score": 86,
     "scoreNote": "estimated",
     "units": "2–3 quartos · 61–171 m²",
     "priceRange": "R$ 950 mil – 1,35 mi",
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 1.7,
-        "score": 10.5,
+        "distKm": 1.55,
+        "score": 11.9,
         "maxScore": 25,
         "label": "Aeroporto",
         "icon": "✈️"
@@ -525,29 +598,29 @@
         "icon": "🍽"
       },
       "bar": {
-        "count": 15,
+        "count": 20,
         "score": 12,
         "maxScore": 12,
         "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
-        "count": 4,
+        "count": 6,
         "score": 6,
         "maxScore": 6,
         "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
-        "count": 1,
-        "score": 2.5,
+        "count": 5,
+        "score": 5,
         "maxScore": 5,
         "label": "Mercado",
         "icon": "🛒"
       },
       "atm": {
-        "count": 0,
-        "score": 0,
+        "count": 1,
+        "score": 0.7,
         "maxScore": 2,
         "label": "Caixa 24h",
         "icon": "🏧"
@@ -559,6 +632,10 @@
     "lat": -14.8324722,
     "lng": -39.0256011,
     "score": 72,
+    "neighborhood": "Jardim Atlântico",
+    "units": "2–3 quartos · 83–168 m² · 3 vagas",
+    "priceRange": "R$ 1,2 mi",
+    "note": "Av. Tancredo Neves, Jardim Atlântico, frente-mar. Piscina borda infinita, deck molhado, espaço grill, fitness, brinquedoteca.",
     "breakdown": {
       "airport": {
         "count": null,
@@ -678,15 +755,15 @@
     "name": "Ilhéus Select",
     "lat": -14.8377118,
     "lng": -39.0263537,
-    "score": 85,
+    "score": 74,
     "scoreNote": "estimated",
     "units": "2 quartos · 84 m²",
     "priceRange": "R$ 595 mil – 1,01 mi",
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 1.7,
-        "score": 10.5,
+        "distKm": 2.7,
+        "score": 0,
         "maxScore": 25,
         "label": "Aeroporto",
         "icon": "✈️"
@@ -707,14 +784,14 @@
         "icon": "🍽"
       },
       "bar": {
-        "count": 15,
+        "count": 10,
         "score": 12,
         "maxScore": 12,
         "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
-        "count": 6,
+        "count": 4,
         "score": 6,
         "maxScore": 6,
         "label": "Farmácia",
@@ -728,8 +805,8 @@
         "icon": "🛒"
       },
       "atm": {
-        "count": 2,
-        "score": 2,
+        "count": 1,
+        "score": 0.7,
         "maxScore": 2,
         "label": "Caixa 24h",
         "icon": "🏧"
@@ -740,15 +817,15 @@
     "name": "Infinity Park",
     "lat": -14.8442032,
     "lng": -39.0266789,
-    "score": 63,
+    "score": 58,
     "scoreNote": "estimated",
     "units": "1 quarto · 30 m²",
     "priceRange": "R$ 330 mil",
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 1.5,
-        "score": 13,
+        "distKm": 3.4,
+        "score": 0,
         "maxScore": 25,
         "label": "Aeroporto",
         "icon": "✈️"
@@ -776,14 +853,14 @@
         "icon": "🍻"
       },
       "pharmacy": {
-        "count": 2,
-        "score": 3,
+        "count": 3,
+        "score": 6,
         "maxScore": 6,
         "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
-        "count": 2,
+        "count": 3,
         "score": 5,
         "maxScore": 5,
         "label": "Mercado",
@@ -802,15 +879,15 @@
     "name": "Palm Park Residence",
     "lat": -14.8437428,
     "lng": -39.0265385,
-    "score": 62,
+    "score": 58,
     "scoreNote": "estimated",
     "units": "2 quartos · 45 m²",
     "priceRange": "R$ 394 mil",
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 2.0,
-        "score": 6.2,
+        "distKm": 3.35,
+        "score": 0,
         "maxScore": 25,
         "label": "Aeroporto",
         "icon": "✈️"
@@ -838,14 +915,14 @@
         "icon": "🍻"
       },
       "pharmacy": {
-        "count": 2,
-        "score": 3,
+        "count": 3,
+        "score": 6,
         "maxScore": 6,
         "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
-        "count": 2,
+        "count": 3,
         "score": 5,
         "maxScore": 5,
         "label": "Mercado",
@@ -864,16 +941,17 @@
     "name": "Maunakai Beach Tower",
     "lat": -14.8515749,
     "lng": -39.0253633,
-    "score": 56,
+    "score": 50,
     "scoreNote": "estimated",
-    "units": "1 quarto · 19 m²",
-    "priceRange": "R$ 246 mil",
+    "neighborhood": "N. Sra. da Vitória",
+    "units": "1–2 quartos · 19–51 m²",
+    "priceRange": "R$ 246 – 877 mil",
     "note": "Na BA-001 — praia do outro lado da rodovia. Construção incerta (fev/2026).",
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 2.0,
-        "score": 6.2,
+        "distKm": 4.23,
+        "score": 0,
         "maxScore": 25,
         "label": "Aeroporto",
         "icon": "✈️"
@@ -887,28 +965,28 @@
         "note": "atravessar BA-001 (4 pistas)"
       },
       "restaurant": {
-        "count": 20,
+        "count": 19,
         "score": 20,
         "maxScore": 20,
         "label": "Restaurantes",
         "icon": "🍽"
       },
       "bar": {
-        "count": 11,
+        "count": 7,
         "score": 12,
         "maxScore": 12,
         "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
-        "count": 2,
+        "count": 1,
         "score": 3,
         "maxScore": 6,
         "label": "Farmácia",
         "icon": "💊"
       },
       "grocery": {
-        "count": 2,
+        "count": 3,
         "score": 5,
         "maxScore": 5,
         "label": "Mercado",
@@ -927,15 +1005,15 @@
     "name": "Costa Mallorca",
     "lat": -14.846654,
     "lng": -39.0259053,
-    "score": 62,
+    "score": 56,
     "scoreNote": "estimated",
     "units": "2 quartos · 76 m²",
     "priceRange": "R$ 491 mil",
     "breakdown": {
       "airport": {
         "count": null,
-        "distKm": 2.0,
-        "score": 6.2,
+        "distKm": 3.68,
+        "score": 0,
         "maxScore": 25,
         "label": "Aeroporto",
         "icon": "✈️"
@@ -956,222 +1034,15 @@
         "icon": "🍽"
       },
       "bar": {
-        "count": 11,
-        "score": 12,
-        "maxScore": 12,
-        "label": "Bares & Baladas",
-        "icon": "🍻"
-      },
-      "pharmacy": {
-        "count": 2,
-        "score": 3,
-        "maxScore": 6,
-        "label": "Farmácia",
-        "icon": "💊"
-      },
-      "grocery": {
-        "count": 2,
-        "score": 5,
-        "maxScore": 5,
-        "label": "Mercado",
-        "icon": "🛒"
-      },
-      "atm": {
-        "count": 0,
-        "score": 0,
-        "maxScore": 2,
-        "label": "Caixa 24h",
-        "icon": "🏧"
-      }
-    }
-  },
-  {
-    "name": "D'Ouro Park Residencial",
-    "lat": -14.8461215,
-    "lng": -39.0270325,
-    "score": 55,
-    "scoreNote": "estimated",
-    "units": "2 quartos · 60 m²",
-    "priceRange": "R$ 550 mil",
-    "condoFee": "R$ 500/mês",
-    "note": "Nossa Senhora da Vitória. Vista mar, voltada para Olivença (sul). 2 elevadores, lazer completo.",
-    "breakdown": {
-      "airport": { "count": null, "distKm": 3.6, "score": 0, "maxScore": 25, "label": "Aeroporto", "icon": "✈️" },
-      "beach": { "count": 1, "score": 15, "maxScore": 30, "label": "Praia", "icon": "🏖", "note": "vista mar — verificar acesso à areia" },
-      "restaurant": { "count": 20, "score": 20, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
-      "bar": { "count": 11, "score": 12, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
-      "pharmacy": { "count": 2, "score": 3, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
-      "grocery": { "count": 2, "score": 5, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
-      "atm": { "count": 0, "score": 0, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
-    }
-  },
-  {
-    "name": "Antares Residence",
-    "lat": -14.8055941,
-    "lng": -39.0373327,
-    "score": 58,
-    "scoreNote": "estimated",
-    "units": "3 quartos · 90 m²",
-    "priceRange": "R$ 836 mil",
-    "breakdown": {
-      "airport": {
-        "count": null,
-        "distKm": 2.5,
-        "score": 3,
-        "maxScore": 25,
-        "label": "Aeroporto",
-        "icon": "✈️"
-      },
-      "beach": {
-        "count": 1,
-        "score": 15,
-        "maxScore": 30,
-        "label": "Praia",
-        "icon": "🏖",
-        "note": "a poucos passos da praia"
-      },
-      "restaurant": {
-        "count": 20,
-        "score": 20,
-        "maxScore": 20,
-        "label": "Restaurantes",
-        "icon": "🍽"
-      },
-      "bar": {
-        "count": 11,
-        "score": 12,
-        "maxScore": 12,
-        "label": "Bares & Baladas",
-        "icon": "🍻"
-      },
-      "pharmacy": {
-        "count": 2,
-        "score": 3,
-        "maxScore": 6,
-        "label": "Farmácia",
-        "icon": "💊"
-      },
-      "grocery": {
-        "count": 2,
-        "score": 5,
-        "maxScore": 5,
-        "label": "Mercado",
-        "icon": "🛒"
-      },
-      "atm": {
-        "count": 0,
-        "score": 0,
-        "maxScore": 2,
-        "label": "Caixa 24h",
-        "icon": "🏧"
-      }
-    }
-  },
-  {
-    "name": "Ilha Bella",
-    "lat": -14.8214289,
-    "lng": -39.026959,
-    "score": 61,
-    "scoreNote": "estimated",
-    "units": "2 quartos · 74 m²",
-    "priceRange": "R$ 611 mil",
-    "breakdown": {
-      "airport": {
-        "count": null,
-        "distKm": 2.0,
-        "score": 6.2,
-        "maxScore": 25,
-        "label": "Aeroporto",
-        "icon": "✈️"
-      },
-      "beach": {
-        "count": 1,
-        "score": 15,
-        "maxScore": 30,
-        "label": "Praia",
-        "icon": "🏖",
-        "note": "200m from beach"
-      },
-      "restaurant": {
-        "count": 20,
-        "score": 20,
-        "maxScore": 20,
-        "label": "Restaurantes",
-        "icon": "🍽"
-      },
-      "bar": {
-        "count": 11,
-        "score": 12,
-        "maxScore": 12,
-        "label": "Bares & Baladas",
-        "icon": "🍻"
-      },
-      "pharmacy": {
-        "count": 2,
-        "score": 3,
-        "maxScore": 6,
-        "label": "Farmácia",
-        "icon": "💊"
-      },
-      "grocery": {
-        "count": 2,
-        "score": 5,
-        "maxScore": 5,
-        "label": "Mercado",
-        "icon": "🛒"
-      },
-      "atm": {
-        "count": 0,
-        "score": 0,
-        "maxScore": 2,
-        "label": "Caixa 24h",
-        "icon": "🏧"
-      }
-    }
-  },
-  {
-    "name": "Unique Park Residence",
-    "lat": -14.8584202,
-    "lng": -39.0251213,
-    "score": 54,
-    "scoreNote": "estimated",
-    "units": "3 quartos · 169 m²",
-    "priceRange": "R$ 1,3 mi",
-    "note": "Prédio mais alto de Ilhéus. Av. Tancredo Neves Km9 — aeroporto fora do alcance.",
-    "breakdown": {
-      "airport": {
-        "count": null,
-        "distKm": 7.5,
-        "score": 0,
-        "maxScore": 25,
-        "label": "Aeroporto",
-        "icon": "✈️"
-      },
-      "beach": {
-        "count": 2,
-        "score": 30,
-        "maxScore": 30,
-        "label": "Praia",
-        "icon": "🏖",
-        "note": "frente para o mar, vista Praia dos Milionários"
-      },
-      "restaurant": {
         "count": 12,
-        "score": 15,
-        "maxScore": 20,
-        "label": "Restaurantes",
-        "icon": "🍽"
-      },
-      "bar": {
-        "count": 5,
-        "score": 6,
+        "score": 12,
         "maxScore": 12,
         "label": "Bares & Baladas",
         "icon": "🍻"
       },
       "pharmacy": {
-        "count": 0,
-        "score": 0,
+        "count": 3,
+        "score": 6,
         "maxScore": 6,
         "label": "Farmácia",
         "icon": "💊"
@@ -1193,10 +1064,266 @@
     }
   },
   {
+    "name": "D'Ouro Park Residencial",
+    "lat": -14.8461215,
+    "lng": -39.0270325,
+    "score": 58,
+    "scoreNote": "estimated",
+    "units": "2 quartos · 60 m²",
+    "priceRange": "R$ 550 mil",
+    "condoFee": "R$ 500/mês",
+    "note": "Nossa Senhora da Vitória. Vista mar, voltada para Olivença (sul). 2 elevadores, lazer completo.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 3.61,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "vista mar — verificar acesso à areia"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 13,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 3,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Antares Residence",
+    "lat": -14.8330727,
+    "lng": -39.026793,
+    "score": 63,
+    "scoreNote": "estimated",
+    "neighborhood": "Jardim Atlântico",
+    "units": "2–4 quartos · 90–175 m² · coberturas duplex",
+    "priceRange": "R$ 836 mil",
+    "note": "M Cruz Construtora, próximo à Praia dos Milionários. Rooftop com piscina de borda infinita, lounge grill, espaço pet, recarga de veículos elétricos.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 2.18,
+        "score": 4,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "a poucos passos da praia"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 13,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 5,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 1,
+        "score": 0.7,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Ilha Bella",
+    "lat": -14.8214289,
+    "lng": -39.026959,
+    "score": 78,
+    "scoreNote": "estimated",
+    "units": "2 quartos · 74 m²",
+    "priceRange": "R$ 611 mil",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 0.96,
+        "score": 19.2,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "200m from beach"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 20,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 6,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 7,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 1,
+        "score": 0.7,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Unique Park Residence",
+    "lat": -14.8584202,
+    "lng": -39.0251213,
+    "score": 56,
+    "scoreNote": "estimated",
+    "units": "3 quartos · 169 m²",
+    "priceRange": "R$ 1,3 mi",
+    "note": "Prédio mais alto de Ilhéus. Av. Tancredo Neves Km9 — aeroporto fora do alcance.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 4.99,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 2,
+        "score": 30,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "frente para o mar, vista Praia dos Milionários"
+      },
+      "restaurant": {
+        "count": 8,
+        "score": 16,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 2,
+        "score": 4.8,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
     "name": "Condomínio Aldeia Atlântida",
     "lat": -14.8625777,
     "lng": -39.0248576,
     "score": 53,
+    "units": "Casas · 173 m² · 4 quartos (3 suítes) · 1 vaga",
+    "priceRange": "R$ 1,73 mi",
+    "note": "Nossa Senhora da Vitória. Casas na planta, arquitetura moderna. Guarita, playground, quadra poliesportiva, salão de festas.",
     "breakdown": {
       "airport": {
         "count": null,
@@ -1255,49 +1382,499 @@
     "name": "Cidadelle Praia do Sul",
     "lat": -14.855646,
     "lng": -39.0283091,
-    "score": 57,
+    "score": 56,
     "scoreNote": "estimated",
+    "units": "Lotes a partir de 450 m² · casas na planta",
+    "priceRange": "R$ 2,8 mi",
+    "note": "Bairro planejado em frente ao mar (Praia dos Milionários), numa colina acima da praia. Vizinho ao Assaí. Lotes residenciais a partir de 450 m²; casas na planta 4 suítes. Clube completo, segurança 24h, área verde, bicicletário. Pode haver pouca coisa à venda.",
     "breakdown": {
-      "airport": { "count": null, "distKm": 4.9, "score": 0, "maxScore": 25, "label": "Aeroporto", "icon": "✈️" },
-      "beach": { "count": 1, "score": 30, "maxScore": 30, "label": "Praia", "icon": "🏖", "note": "coastal — beachfront assumed" },
-      "restaurant": { "count": 10, "score": 15, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
-      "bar": { "count": 5, "score": 6, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
-      "pharmacy": { "count": 1, "score": 3, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
-      "grocery": { "count": 1, "score": 2.5, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
-      "atm": { "count": 0, "score": 0, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
-    }
-  },
-  {
-    "name": "Reserva Brisa do Mar",
-    "lat": -14.8708368,
-    "lng": -39.0248648,
-    "score": 49,
-    "scoreNote": "estimated",
-    "breakdown": {
-      "airport": { "count": null, "distKm": 6.6, "score": 0, "maxScore": 25, "label": "Aeroporto", "icon": "✈️" },
-      "beach": { "count": 1, "score": 30, "maxScore": 30, "label": "Praia", "icon": "🏖", "note": "coastal — beachfront assumed" },
-      "restaurant": { "count": 7, "score": 10, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
-      "bar": { "count": 4, "score": 6, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
-      "pharmacy": { "count": 0, "score": 0, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
-      "grocery": { "count": 1, "score": 2.5, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
-      "atm": { "count": 0, "score": 0, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
+      "airport": {
+        "count": null,
+        "distKm": 4.65,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 30,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "coastal — beachfront assumed"
+      },
+      "restaurant": {
+        "count": 8,
+        "score": 16,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 2,
+        "score": 4.8,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
     }
   },
   {
     "name": "Alphapark Condomínio",
     "lat": -14.8887611,
     "lng": -39.0240185,
-    "score": 38,
+    "score": 57,
     "scoreNote": "estimated",
-    "note": "~8km from IOS via BA-001 four-lane — fast airport run. BA-001 ends before reaching development; Cururupe River is the southern boundary of current road access.",
+    "units": "Casas · 3–4 suítes · 245–259 m²",
+    "priceRange": "R$ 1,7 – 1,9 mi",
+    "note": "~8km from IOS via BA-001 four-lane — fast airport run. BA-001 ends before reaching development; Cururupe River is the southern boundary of current road access. Condomínio de casas de alto padrão (Cururupe/NSV), segurança 24h. O limite sul das beachburbs — pouca coisa ao sul.",
     "breakdown": {
-      "airport": { "count": null, "distKm": 8.6, "score": 0, "maxScore": 25, "label": "Aeroporto", "icon": "✈️" },
-      "beach": { "count": 1, "score": 30, "maxScore": 30, "label": "Praia", "icon": "🏖", "note": "coastal — beachfront assumed" },
-      "restaurant": { "count": 4, "score": 5, "maxScore": 20, "label": "Restaurantes", "icon": "🍽" },
-      "bar": { "count": 2, "score": 3, "maxScore": 12, "label": "Bares & Baladas", "icon": "🍻" },
-      "pharmacy": { "count": 0, "score": 0, "maxScore": 6, "label": "Farmácia", "icon": "💊" },
-      "grocery": { "count": 0, "score": 0, "maxScore": 5, "label": "Mercado", "icon": "🛒" },
-      "atm": { "count": 0, "score": 0, "maxScore": 2, "label": "Caixa 24h", "icon": "🏧" }
+      "airport": {
+        "count": null,
+        "distKm": 8.35,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 30,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "coastal — beachfront assumed"
+      },
+      "restaurant": {
+        "count": 14,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 3,
+        "score": 7.2,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Coral Park Residence",
+    "lat": -14.8426825,
+    "lng": -39.025723,
+    "score": 56,
+    "scoreNote": "estimated",
+    "neighborhood": "Jardim Atlântico",
+    "note": "Strip da Praia dos Milionários. Score estimado pelo cluster vizinho; acesso à praia a confirmar nas fotos.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 3.25,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "≈1 quadra — a confirmar"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 11,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 3,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 1,
+        "score": 2.5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "San Marino",
+    "lat": -14.8445547,
+    "lng": -39.0257774,
+    "score": 56,
+    "scoreNote": "estimated",
+    "neighborhood": "Jardim Atlântico",
+    "note": "Strip da Praia dos Milionários. Score estimado pelo cluster vizinho; acesso à praia a confirmar nas fotos.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 3.46,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "≈1 quadra — a confirmar"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 12,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 3,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 1,
+        "score": 2.5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Residencial Ilha Di Capri",
+    "lat": -14.8458959,
+    "lng": -39.0259223,
+    "score": 56,
+    "scoreNote": "estimated",
+    "neighborhood": "N. Sra. da Vitória",
+    "note": "Strip da Praia dos Milionários. Score estimado pelo cluster vizinho; acesso à praia a confirmar nas fotos.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 3.6,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "≈1 quadra — a confirmar"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 13,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 3,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 1,
+        "score": 2.5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Isla Park Residence",
+    "lat": -14.8511814,
+    "lng": -39.025324,
+    "score": 55,
+    "scoreNote": "estimated",
+    "neighborhood": "N. Sra. da Vitória",
+    "note": "Strip da Praia dos Milionários (sul). Score estimado pelo cluster vizinho; acesso à praia a confirmar nas fotos.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 4.19,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "≈1 quadra — a confirmar"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 8,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 1,
+        "score": 3,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 3,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Pontal Park Residencial",
+    "lat": -14.8106026,
+    "lng": -39.0345153,
+    "score": 85,
+    "scoreNote": "estimated",
+    "neighborhood": "Pontal",
+    "units": "2–3 quartos · 62–89 m²",
+    "note": "Av. Lomanto Júnior, 528, Pontal. 6 torres, frente para a Baía do Pontal. Coberturas até 151 m². Segurança 24h, piscina, quadra esportiva. Vizinho ao aeroporto e à ponte da Zona Sul.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 0.49,
+        "score": 25,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "lado baía"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 20,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 5,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 6,
+        "score": 2,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
+    }
+  },
+  {
+    "name": "Brilho do Atlântico",
+    "lat": -14.8409972,
+    "lng": -39.0259252,
+    "score": 58,
+    "scoreNote": "estimated",
+    "neighborhood": "Jardim Atlântico",
+    "note": "Strip da Praia dos Milionários. Score estimado pelo cluster vizinho; acesso à praia a confirmar nas fotos.",
+    "breakdown": {
+      "airport": {
+        "count": null,
+        "distKm": 3.06,
+        "score": 0,
+        "maxScore": 25,
+        "label": "Aeroporto",
+        "icon": "✈️"
+      },
+      "beach": {
+        "count": 1,
+        "score": 15,
+        "maxScore": 30,
+        "label": "Praia",
+        "icon": "🏖",
+        "note": "≈1 quadra — a confirmar"
+      },
+      "restaurant": {
+        "count": 20,
+        "score": 20,
+        "maxScore": 20,
+        "label": "Restaurantes",
+        "icon": "🍽"
+      },
+      "bar": {
+        "count": 9,
+        "score": 12,
+        "maxScore": 12,
+        "label": "Bares & Baladas",
+        "icon": "🍻"
+      },
+      "pharmacy": {
+        "count": 3,
+        "score": 6,
+        "maxScore": 6,
+        "label": "Farmácia",
+        "icon": "💊"
+      },
+      "grocery": {
+        "count": 2,
+        "score": 5,
+        "maxScore": 5,
+        "label": "Mercado",
+        "icon": "🛒"
+      },
+      "atm": {
+        "count": 0,
+        "score": 0,
+        "maxScore": 2,
+        "label": "Caixa 24h",
+        "icon": "🏧"
+      }
     }
   }
 ]
