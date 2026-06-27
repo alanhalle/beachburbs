@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Circle, ScaleControl, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { useEffect, useState } from 'react'
@@ -44,6 +44,23 @@ const airportIcon = L.divIcon({
   className: '',
 })
 
+// Distance rings around the airport — make the compact scale obvious.
+// The farthest building is barely 5 miles out; without this, a stranger can't tell.
+const MILE_M = 1609.34
+const RINGS = [1, 3, 5] // miles
+const LAT_PER_MILE = MILE_M / 111320 // ~0.01446° latitude per mile
+
+function ringLabelIcon(mi) {
+  return L.divIcon({
+    html: `<span style="font-size:10px;font-weight:700;color:#334155;
+      background:rgba(255,255,255,0.8);padding:0 4px;border-radius:3px;
+      white-space:nowrap;font-family:system-ui,sans-serif;">${mi} mi</span>`,
+    iconSize: [34, 14],
+    iconAnchor: [17, 7],
+    className: '',
+  })
+}
+
 function FlyTo({ condo }) {
   const map = useMap()
   useEffect(() => {
@@ -74,6 +91,7 @@ export default function MapView({ condos, activeCondo, onSelectCondo, strings })
     <div style={{ position: 'relative', height: '100%' }}>
     <MapContainer bounds={bounds} boundsOptions={{ padding: [50, 50] }} className="map-container" zoomControl>
       <TileLayer key={tileMode} attribution={tile.attribution} url={tile.url} />
+      <ScaleControl position="bottomleft" metric imperial />
       <div style={{
         position: 'absolute', top: 10, right: 10, zIndex: 1000,
         display: 'flex', gap: 4,
@@ -98,6 +116,23 @@ export default function MapView({ condos, activeCondo, onSelectCondo, strings })
         ))}
       </div>
       {activeCondo && <FlyTo condo={activeCondo} />}
+      {RINGS.map(mi => (
+        <Circle
+          key={mi}
+          center={[AIRPORT.lat, AIRPORT.lng]}
+          radius={mi * MILE_M}
+          pathOptions={{ color: '#1e293b', weight: 1, opacity: 0.35, dashArray: '4 5', fill: false, interactive: false }}
+        />
+      ))}
+      {RINGS.map(mi => (
+        <Marker
+          key={`lbl-${mi}`}
+          position={[AIRPORT.lat - mi * LAT_PER_MILE, AIRPORT.lng]}
+          icon={ringLabelIcon(mi)}
+          interactive={false}
+          keyboard={false}
+        />
+      ))}
       <Marker position={[AIRPORT.lat, AIRPORT.lng]} icon={airportIcon} zIndexOffset={1000}>
         <Popup>{strings?.airportLabel ?? 'Aeroporto de Ilhéus (IOS)'}</Popup>
       </Marker>
