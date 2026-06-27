@@ -25,6 +25,25 @@ function makeScoreIcon(score, isActive) {
   })
 }
 
+// IOS airport — the anchor of the airport-to-beach thesis
+const AIRPORT = { lat: -14.8139815, lng: -39.0315656 }
+
+const airportIcon = L.divIcon({
+  html: `
+    <div style="display:flex;flex-direction:column;align-items:center;line-height:1;">
+      <div style="width:34px;height:34px;border-radius:50%;background:#1e293b;
+        border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.4);
+        display:flex;align-items:center;justify-content:center;font-size:18px;">✈️</div>
+      <span style="margin-top:2px;font-size:10px;font-weight:700;color:#1e293b;
+        background:rgba(255,255,255,0.85);padding:0 4px;border-radius:3px;
+        white-space:nowrap;font-family:system-ui,sans-serif;">IOS</span>
+    </div>`,
+  iconSize: [34, 48],
+  iconAnchor: [17, 34],
+  popupAnchor: [0, -34],
+  className: '',
+})
+
 function FlyTo({ condo }) {
   const map = useMap()
   useEffect(() => {
@@ -48,7 +67,7 @@ export default function MapView({ condos, activeCondo, onSelectCondo, strings })
   const [tileMode, setTileMode] = useState('satellite')
   const tile = TILES[tileMode]
   const bounds = condos.length > 0
-    ? L.latLngBounds(condos.map(c => [c.lat, c.lng]))
+    ? L.latLngBounds([...condos.map(c => [c.lat, c.lng]), [AIRPORT.lat, AIRPORT.lng]])
     : L.latLngBounds([[-14.86, -39.04], [-14.78, -39.03]])
 
   return (
@@ -79,6 +98,9 @@ export default function MapView({ condos, activeCondo, onSelectCondo, strings })
         ))}
       </div>
       {activeCondo && <FlyTo condo={activeCondo} />}
+      <Marker position={[AIRPORT.lat, AIRPORT.lng]} icon={airportIcon} zIndexOffset={1000}>
+        <Popup>{strings?.airportLabel ?? 'Aeroporto de Ilhéus (IOS)'}</Popup>
+      </Marker>
       {condos.map(condo => (
         <Marker
           key={condo.name}

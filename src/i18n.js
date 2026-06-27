@@ -13,6 +13,7 @@ export const strings = {
     sectionLabel: n => `Pontal, Ilhéus — ${n} condominiums ranked`,
     mapStreet: 'Map',
     mapSatellite: 'Satellite',
+    airportLabel: 'Ilhéus Airport (IOS)',
     categories: {
       airport: 'Airport',
       beach: 'Beach',
@@ -37,6 +38,7 @@ export const strings = {
     sectionLabel: n => `Pontal, Ilhéus — ${n} condomínios classificados`,
     mapStreet: 'Mapa',
     mapSatellite: 'Satélite',
+    airportLabel: 'Aeroporto de Ilhéus (IOS)',
     categories: {
       airport: 'Aeroporto',
       beach: 'Praia',
