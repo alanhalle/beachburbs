@@ -13,6 +13,9 @@ export default function App() {
     setActiveCondo(prev => prev?.name === condo.name ? null : condo)
   }
 
+  // Rank by score so #1 is the highest-scoring building.
+  const ranked = [...condos].sort((a, b) => b.score - a.score)
+
   return (
     <div className="layout">
       <header className="site-header">
@@ -53,7 +56,7 @@ export default function App() {
 
               <div className="section-label">{s.sectionLabel(condos.length)}</div>
 
-              {condos.map((condo, i) => (
+              {ranked.map((condo, i) => (
                 <CondoCard
                   key={condo.name}
                   condo={condo}
