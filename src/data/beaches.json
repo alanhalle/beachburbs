@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Praia da Avenida",
+    "kind": "ocean",
+    "qualityFactor": 0.4,
+    "scoreNote": "Urban beach — good for walking, degraded since port.",
+    "buildings": ["Residencial Victoria", "Central Park", "Farani 221"],
+    "note": "Urban oceanfront along Av. Soares Lopes, city centre. Surf line defined by two endpoints Alan picked off the map (north = port/centre, south = Morro de Pernambuco). qualityFactor 0.4 = degraded urban walking beach, not a destination beach. buildings[] scopes which condos this line scores.",
+    "line": [
+      [-14.78344660210527, -39.027009537042666],
+      [-14.80593557668118, -39.02911238890039]
+    ]
+  },
+  {
+    "name": "Praia do Pontal",
+    "kind": "bay",
+    "qualityFactor": 0.6,
+    "scoreNote": "Calm bay water (Baía do Pontal), not ocean surf.",
+    "buildings": [],
+    "note": "Baía do Pontal. There are NO walkable bay beaches left — the port (built 1970s) took them; Av. Soares Lopes itself was beachfront before that. So this is not a scored beach: buildings[] stays empty permanently. Bay-side condos (Pontal Park, Baia Marina, Reserva Sapetinga, Atlantis) advertise 'vista mar' (bay view) but are scored by distance to the nearest OCEAN beach, not to the bay. Their real ocean access (highway crossings, gated blocks, the ~300m peninsula crossing) is unmapped field work — left curated for now. Line kept only as a map reference.",
+    "line": [
+      [-14.807118050771141, -39.024037649467196],
+      [-14.816772085706042, -39.02423345072753]
+    ]
+  },
+  {
+    "name": "Praia do Sul",
+    "kind": "ocean",
+    "qualityFactor": 1.0,
+    "scoreNote": "Destination ocean beach (São Francisco).",
+    "buildings": ["Petra", "Ilhéus Select", "Antares Residence", "Ilha Bella", "Residencial Vernazza", "Vista Park", "Sette"],
+    "note": "Destination ocean beach, São Francisco. Good infrastructure, popular with tourists. qualityFactor 1.0. buildings[] = condos whose nearest traced line is this one, within ~360m.",
+    "line": [
+      [-14.816772085706042, -39.02423345072753],
+      [-14.84042952369106, -39.023935725352985]
+    ]
+  },
+  {
+    "name": "Praia dos Milionários",
+    "kind": "ocean",
+    "qualityFactor": 1.0,
+    "scoreNote": "Destination ocean beach (Jardim Atlântico / NSV strip).",
+    "buildings": ["Condomínio Aldeia Atlântida", "Isla Park Residence", "Maunakai Beach Tower", "Tons de Brisa", "Unique Park Residence", "Coral Park Residence", "San Marino", "Brilho do Atlântico", "Residencial Ilha Di Capri", "Costa Mallorca", "Palm Park Residence", "Infinity Park", "D'Ouro Park Residencial"],
+    "note": "Best-known destination beach, Jardim Atlântico / NSV strip. North endpoint shares Praia do Sul's south point (latitude inferred — Alan supplied only the longitude, which matched exactly). qualityFactor 1.0. buildings[] = the southern cluster within ~360m of this line. Cidadelle Praia do Sul (531m) and Alphapark (1.66km) left curated — too far for the trace to represent their real beach access.",
+    "line": [
+      [-14.84042952369106, -39.023935725352985],
+      [-14.873862890334626, -39.022691180279814]
+    ]
+  }
+]

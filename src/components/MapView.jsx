@@ -1,7 +1,8 @@
-import { MapContainer, TileLayer, Marker, Popup, Circle, ScaleControl, useMap } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Circle, Polyline, ScaleControl, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { useEffect, useState } from 'react'
+import beaches from '../data/beaches.json'
 
 // Custom score pin icon
 function makeScoreIcon(score, isActive) {
@@ -116,6 +117,15 @@ export default function MapView({ condos, activeCondo, onSelectCondo, strings })
         ))}
       </div>
       {activeCondo && <FlyTo condo={activeCondo} />}
+      {beaches.map(beach => (
+        <Polyline
+          key={beach.name}
+          positions={beach.line}
+          pathOptions={{ color: '#0284c7', weight: 4, opacity: 0.9 }}
+        >
+          <Popup>{beach.name}</Popup>
+        </Polyline>
+      ))}
       {RINGS.map(mi => (
         <Circle
           key={mi}
