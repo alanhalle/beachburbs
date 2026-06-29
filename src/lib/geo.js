@@ -52,8 +52,14 @@ export function distanceToLineM(lat, lng, line) {
 // Distance → beach score. Full score at/under FULL_M, sliding linearly to
 // zero at ZERO_M, then scaled by the beach's quality factor (a degraded urban
 // beach earns less than a destination beach at the same distance).
-const FULL_M = 50
-const ZERO_M = 1500
+//
+// Curve tuned to Alan's distinction between "toes in the sand" and "a block
+// from the beach": full credit only when effectively on the sand (≤ 75m of the
+// waterline), then a steep per-block penalty, reaching zero by ~800m — beyond
+// roughly eight blocks the beach is no longer a feature of the home. This
+// rewards the field-verified beachfront coordinates over a pin on the highway.
+const FULL_M = 75
+const ZERO_M = 800
 export function beachScore(distM, maxScore, qualityFactor = 1) {
   let frac
   if (distM <= FULL_M) frac = 1

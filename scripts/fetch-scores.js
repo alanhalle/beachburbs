@@ -1,6 +1,13 @@
 import { readFileSync, writeFileSync, copyFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import path from 'path'
+import {
+  AIRPORT,
+  AIRPORT_WEIGHT,
+  AIRPORT_FULL_SCORE_KM,
+  AIRPORT_ZERO_SCORE_KM,
+  PLACE_CATEGORIES,
+} from './scoring-weights.js'
 
 // ---------------------------------------------------------------------------
 // Non-destructive score refresh.
@@ -41,24 +48,8 @@ if (!API_KEY) {
 
 const DATA_PATH = path.join(__dirname, '..', 'src', 'data', 'condos.json')
 
-// IOS airport — same fixed anchor the map uses (MapView.jsx). No geocoding.
-const AIRPORT = { lat: -14.8139815, lng: -39.0315656 }
-
-// Airport proximity: 25 pts — distance-based, not Places API.
-const AIRPORT_WEIGHT = 25
-const AIRPORT_FULL_SCORE_KM = 0.5   // under 500m → full score
-const AIRPORT_ZERO_SCORE_KM = 2.5   // over 2.5km → 0
-
-// Places-based categories, keyed to match the breakdown keys in condos.json.
-// weight = max points; max = result count that earns full points.
-// `beach` is intentionally absent — it is never recomputed here.
-const PLACE_CATEGORIES = {
-  restaurant: { type: 'restaurant',   keyword: '', weight: 20, max: 10 },
-  bar:        { type: 'bar',          keyword: '', weight: 12, max: 5 },
-  pharmacy:   { type: 'pharmacy',     keyword: '', weight: 6,  max: 2 },
-  grocery:    { type: 'supermarket',  keyword: '', weight: 5,  max: 2 },
-  atm:        { type: 'atm',          keyword: '', weight: 2,  max: 3 },
-}
+// Airport anchor, airport curve constants, and the Places category weights all
+// live in scoring-weights.js (the single source of truth, imported above).
 
 const RADIUS = 800
 
