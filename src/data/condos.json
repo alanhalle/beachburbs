@@ -216,7 +216,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8103055,
     "lng": -39.0390987,
-    "score": 60,
+    "score": 40,
     "scoreNote": "estimated",
     "units": "2 quartos · 80 m²",
     "priceRange": "R$ 735 mil",
@@ -233,11 +233,13 @@
       },
       "beach": {
         "count": 1,
-        "score": 20,
+        "score": 0,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "bay side — ocean beach ~300m across Pontal"
+        "note": "Ocean beach access ~1585m, straight line.",
+        "distM": 1585,
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 17,
@@ -284,7 +286,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8116468,
     "lng": -39.0288169,
-    "score": 98,
+    "score": 75,
     "units": "3–4 suítes · 168–176 m²",
     "priceRange": "R$ 700 – 900 mil",
     "note": "Av. Lomanto Júnior, Pontal. Vista panorâmica do mar.",
@@ -299,10 +301,13 @@
       },
       "beach": {
         "count": 3,
-        "score": 40,
+        "score": 16.9,
         "maxScore": 40,
         "label": "Praia",
-        "icon": "🏖"
+        "icon": "🏖",
+        "distM": 493,
+        "note": "Beach access ~493m, using the painted crossing.",
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -349,7 +354,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8216272,
     "lng": -39.0270296,
-    "score": 85,
+    "score": 88,
     "units": "2–3 quartos · 71–96 m²",
     "note": "São Francisco. A um quarteirão da praia. Porcelanato, sala integrada, varandas com vista lateral do mar. Piscina adulto/infantil, lazer no rooftop, salão de festas, coworking.",
     "breakdown": {
@@ -363,12 +368,13 @@
       },
       "beach": {
         "count": 2,
-        "score": 27.2,
+        "score": 29.9,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia do Sul ~307m (crow-flies). Destination ocean beach (São Francisco).",
-        "distM": 307
+        "note": "Beach access ~257m, using the painted crossing.",
+        "distM": 257,
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -415,7 +421,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8250883,
     "lng": -39.027487,
-    "score": 82,
+    "score": 79,
     "neighborhood": "São Francisco",
     "units": "Studios 31 m² · 1–2 quartos",
     "priceRange": "R$ 380 – 400 mil (studio)",
@@ -431,12 +437,13 @@
       },
       "beach": {
         "count": 2,
-        "score": 24.2,
+        "score": 21.1,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia do Sul ~361m (crow-flies). Destination ocean beach (São Francisco).",
-        "distM": 361
+        "note": "Beach access ~417m, using the painted crossing.",
+        "distM": 417,
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -483,7 +490,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8076647,
     "lng": -39.0361924,
-    "score": 67,
+    "score": 47,
     "neighborhood": "Pontal",
     "units": "3–4 quartos · 109–144 m²",
     "priceRange": "R$ 750 mil – 1 mi+",
@@ -499,10 +506,13 @@
       },
       "beach": {
         "count": 1,
-        "score": 20,
+        "score": 0,
         "maxScore": 40,
         "label": "Praia",
-        "icon": "🏖"
+        "icon": "🏖",
+        "distM": 1241,
+        "note": "Ocean beach access ~1241m, straight line.",
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -549,7 +559,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8055993,
     "lng": -39.0371664,
-    "score": 71,
+    "score": 51,
     "units": "2 suítes · 75–78 m²",
     "priceRange": "R$ 530 – 600 mil",
     "note": "Av. Lomanto Júnior, 256, Pontal. Lado baía (mesma vista do Baía Marina). Varandas amplas.",
@@ -564,10 +574,13 @@
       },
       "beach": {
         "count": 1,
-        "score": 20,
+        "score": 0,
         "maxScore": 40,
         "label": "Praia",
-        "icon": "🏖"
+        "icon": "🏖",
+        "distM": 1354,
+        "note": "Ocean beach access ~1354m, straight line.",
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -629,12 +642,13 @@
       },
       "beach": {
         "count": 2,
-        "score": 37.8,
+        "score": 37.6,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia do Sul ~114m (crow-flies). Destination ocean beach (São Francisco).",
-        "distM": 114
+        "note": "Beach access ~118m, on the ocean side of the road.",
+        "distM": 118,
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -681,7 +695,7 @@
     "visibleFrom": "unknown",
     "lat": -14.83275221148018,
     "lng": -39.025086119066614,
-    "score": 86,
+    "score": 88,
     "neighborhood": "Jardim Atlântico",
     "units": "2–3 quartos · 83–168 m² · 3 vagas",
     "priceRange": "R$ 1,2 mi",
@@ -697,12 +711,13 @@
       },
       "beach": {
         "count": 2,
-        "score": 37.9,
+        "score": 40,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia do Sul ~113m (crow-flies). Destination ocean beach (São Francisco).",
-        "distM": 113
+        "note": "Beach access ~38m, on the ocean side of the road.",
+        "distM": 38,
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -749,7 +764,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8518647,
     "lng": -39.0253637,
-    "score": 76,
+    "score": 83,
     "units": "1 quarto · 31 m²",
     "priceRange": "R$ 350 mil",
     "breakdown": {
@@ -763,12 +778,14 @@
       },
       "beach": {
         "count": 2,
-        "score": 33.2,
+        "score": 39.9,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~199m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 199
+        "note": "Beach access ~77m. No painted crossing: the road here is under construction.",
+        "distM": 77,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 19,
@@ -815,7 +832,7 @@
     "visibleFrom": "unknown",
     "lat": -14.837298691691851,
     "lng": -39.025040521519784,
-    "score": 89,
+    "score": 91,
     "scoreNote": "estimated",
     "units": "2 quartos · 84 m²",
     "priceRange": "R$ 595 mil – 1,01 mi",
@@ -830,12 +847,13 @@
       },
       "beach": {
         "count": 2,
-        "score": 37.8,
+        "score": 39.2,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia do Sul ~115m (crow-flies). Destination ocean beach (São Francisco).",
-        "distM": 115
+        "note": "Beach access ~90m, on the ocean side of the road.",
+        "distM": 90,
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -882,7 +900,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8442032,
     "lng": -39.0266789,
-    "score": 78,
+    "score": 84,
     "scoreNote": "estimated",
     "units": "1 quarto · 30 m²",
     "priceRange": "R$ 330 mil",
@@ -897,12 +915,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 27,
+        "score": 33.4,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~310m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 310
+        "note": "Beach access ~195m. No painted crossing: the road here is under construction.",
+        "distM": 195,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 20,
@@ -949,7 +969,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8437428,
     "lng": -39.0265385,
-    "score": 79,
+    "score": 85,
     "scoreNote": "estimated",
     "units": "2 quartos · 45 m²",
     "priceRange": "R$ 394 mil",
@@ -964,12 +984,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 28,
+        "score": 34.7,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~293m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 293
+        "note": "Beach access ~171m. No painted crossing: the road here is under construction.",
+        "distM": 171,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 20,
@@ -1016,7 +1038,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8515749,
     "lng": -39.0253633,
-    "score": 76,
+    "score": 83,
     "scoreNote": "estimated",
     "neighborhood": "N. Sra. da Vitória",
     "units": "1–2 quartos · 19–51 m²",
@@ -1033,12 +1055,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 33.2,
+        "score": 39.5,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~198m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 198
+        "note": "Beach access ~84m. No painted crossing: the road here is under construction.",
+        "distM": 84,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 19,
@@ -1085,7 +1109,7 @@
     "visibleFrom": "unknown",
     "lat": -14.846654,
     "lng": -39.0259053,
-    "score": 80,
+    "score": 87,
     "scoreNote": "estimated",
     "units": "2 quartos · 76 m²",
     "priceRange": "R$ 491 mil",
@@ -1100,12 +1124,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 31.1,
+        "score": 37.7,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~236m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 236
+        "note": "Beach access ~116m. No painted crossing: the road here is under construction.",
+        "distM": 116,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 20,
@@ -1152,7 +1178,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8461215,
     "lng": -39.0270325,
-    "score": 75,
+    "score": 82,
     "scoreNote": "estimated",
     "units": "2 quartos · 60 m²",
     "priceRange": "R$ 550 mil",
@@ -1169,12 +1195,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 24.5,
+        "score": 31.3,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~355m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 355
+        "note": "Beach access ~233m. No painted crossing: the road here is under construction.",
+        "distM": 233,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 20,
@@ -1221,7 +1249,7 @@
     "visibleFrom": "unknown",
     "lat": -14.83300112304121,
     "lng": -39.026074513093484,
-    "score": 85,
+    "score": 92,
     "scoreNote": "estimated",
     "neighborhood": "Jardim Atlântico",
     "units": "2–4 quartos · 90–175 m² · coberturas duplex",
@@ -1238,12 +1266,13 @@
       },
       "beach": {
         "count": 1,
-        "score": 32,
+        "score": 38.7,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia do Sul ~220m (crow-flies). Destination ocean beach (São Francisco).",
-        "distM": 220
+        "note": "Beach access ~98m, on the ocean side of the road.",
+        "distM": 98,
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -1290,7 +1319,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8214289,
     "lng": -39.026959,
-    "score": 86,
+    "score": 89,
     "scoreNote": "estimated",
     "units": "2 quartos · 74 m²",
     "priceRange": "R$ 611 mil",
@@ -1305,12 +1334,13 @@
       },
       "beach": {
         "count": 1,
-        "score": 27.6,
+        "score": 31.2,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia do Sul ~299m (crow-flies). Destination ocean beach (São Francisco).",
-        "distM": 299
+        "note": "Beach access ~234m, using the painted crossing.",
+        "distM": 234,
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -1357,7 +1387,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8584202,
     "lng": -39.0251213,
-    "score": 57,
+    "score": 63,
     "scoreNote": "estimated",
     "units": "3 quartos · 169 m²",
     "priceRange": "R$ 1,3 mi",
@@ -1373,12 +1403,14 @@
       },
       "beach": {
         "count": 2,
-        "score": 33.1,
+        "score": 39.9,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~199m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 199
+        "note": "Beach access ~76m. No painted crossing: the road here is under construction.",
+        "distM": 76,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 8,
@@ -1425,7 +1457,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8625777,
     "lng": -39.0248576,
-    "score": 58,
+    "score": 64,
     "units": "Casas · 173 m² · 4 quartos (3 suítes) · 1 vaga",
     "priceRange": "R$ 1,73 mi",
     "note": "Nossa Senhora da Vitória. Casas na planta, arquitetura moderna. Guarita, playground, quadra poliesportiva, salão de festas.",
@@ -1440,12 +1472,14 @@
       },
       "beach": {
         "count": 2,
-        "score": 33.8,
+        "score": 40,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~188m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 188
+        "note": "Beach access ~60m. No painted crossing: the road here is under construction.",
+        "distM": 60,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 12,
@@ -1492,7 +1526,7 @@
     "visibleFrom": "unknown",
     "lat": -14.855646,
     "lng": -39.0283091,
-    "score": 63,
+    "score": 45,
     "scoreNote": "estimated",
     "units": "Lotes a partir de 450 m² · casas na planta",
     "priceRange": "R$ 2,8 mi",
@@ -1508,11 +1542,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 40,
+        "score": 21.4,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "coastal — beachfront assumed"
+        "note": "Beach access ~413m. No painted crossing: the road here is under construction.",
+        "distM": 413,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 8,
@@ -1559,7 +1596,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8887611,
     "lng": -39.0240185,
-    "score": 69,
+    "score": 64,
     "scoreNote": "estimated",
     "units": "Casas · 3–4 suítes · 245–259 m²",
     "priceRange": "R$ 1,7 – 1,9 mi",
@@ -1575,11 +1612,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 40,
+        "score": 35.7,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "coastal — beachfront assumed"
+        "note": "Beach access ~153m. No painted crossing: the road here is under construction.",
+        "distM": 153,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 14,
@@ -1626,7 +1666,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8426825,
     "lng": -39.025723,
-    "score": 81,
+    "score": 88,
     "scoreNote": "estimated",
     "neighborhood": "Jardim Atlântico",
     "note": "Strip da Praia dos Milionários. Score estimado pelo cluster vizinho; acesso à praia a confirmar nas fotos.",
@@ -1641,12 +1681,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 33,
+        "score": 39.5,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~201m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 201
+        "note": "Beach access ~84m. No painted crossing: the road here is under construction.",
+        "distM": 84,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 20,
@@ -1693,7 +1735,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8445547,
     "lng": -39.0257774,
-    "score": 82,
+    "score": 87,
     "scoreNote": "estimated",
     "neighborhood": "Jardim Atlântico",
     "note": "Strip da Praia dos Milionários. Score estimado pelo cluster vizinho; acesso à praia a confirmar nas fotos.",
@@ -1708,12 +1750,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 32.3,
+        "score": 37.9,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~214m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 214
+        "note": "Beach access ~114m. No painted crossing: the road here is under construction.",
+        "distM": 114,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 20,
@@ -1760,7 +1804,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8458959,
     "lng": -39.0259223,
-    "score": 80,
+    "score": 87,
     "scoreNote": "estimated",
     "neighborhood": "N. Sra. da Vitória",
     "note": "Strip da Praia dos Milionários. Score estimado pelo cluster vizinho; acesso à praia a confirmar nas fotos.",
@@ -1775,12 +1819,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 31.2,
+        "score": 37.9,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~235m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 235
+        "note": "Beach access ~114m. No painted crossing: the road here is under construction.",
+        "distM": 114,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 20,
@@ -1827,7 +1873,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8511814,
     "lng": -39.025324,
-    "score": 79,
+    "score": 85,
     "scoreNote": "estimated",
     "neighborhood": "N. Sra. da Vitória",
     "note": "Strip da Praia dos Milionários (sul). Score estimado pelo cluster vizinho; acesso à praia a confirmar nas fotos.",
@@ -1842,12 +1888,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 33.5,
+        "score": 40,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~192m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 192
+        "note": "Beach access ~75m. No painted crossing: the road here is under construction.",
+        "distM": 75,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 20,
@@ -1894,7 +1942,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8106026,
     "lng": -39.0345153,
-    "score": 75,
+    "score": 55,
     "scoreNote": "estimated",
     "neighborhood": "Pontal",
     "units": "2–3 quartos · 62–89 m²",
@@ -1910,11 +1958,13 @@
       },
       "beach": {
         "count": 1,
-        "score": 20,
+        "score": 0,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "lado baía"
+        "note": "Ocean beach access ~1104m, straight line.",
+        "distM": 1104,
+        "source": "access-pins"
       },
       "restaurant": {
         "count": 20,
@@ -1961,7 +2011,7 @@
     "visibleFrom": "unknown",
     "lat": -14.8409972,
     "lng": -39.0259252,
-    "score": 79,
+    "score": 86,
     "scoreNote": "estimated",
     "neighborhood": "Jardim Atlântico",
     "note": "Strip da Praia dos Milionários. Score estimado pelo cluster vizinho; acesso à praia a confirmar nas fotos.",
@@ -1976,12 +2026,14 @@
       },
       "beach": {
         "count": 1,
-        "score": 32.2,
+        "score": 38.5,
         "maxScore": 40,
         "label": "Praia",
         "icon": "🏖",
-        "note": "Praia dos Milionários ~216m (crow-flies). Destination ocean beach (Jardim Atlântico / NSV strip).",
-        "distM": 216
+        "note": "Beach access ~102m. No painted crossing: the road here is under construction.",
+        "distM": 102,
+        "source": "access-pins",
+        "noCrossing": true
       },
       "restaurant": {
         "count": 20,

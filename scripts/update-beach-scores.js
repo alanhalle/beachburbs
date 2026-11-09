@@ -31,6 +31,7 @@ for (const beach of beaches) {
     if (!condo) { console.warn(`SKIP — no building named "${name}"`); continue }
     const cat = condo.breakdown?.beach
     if (!cat) { console.warn(`SKIP ${name} — no beach category`); continue }
+    if (cat.source === 'access-pins') continue // scored by update-beach-access.js
 
     const { distM } = distanceToLineM(condo.lat, condo.lng, beach.line)
     const score = beachScore(distM, cat.maxScore, factor)

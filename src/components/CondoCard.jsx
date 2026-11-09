@@ -54,10 +54,15 @@ export default function CondoCard({ condo, rank, isActive, onClick, strings }) {
                   {cat.score}/{cat.maxScore}
                   {key === 'airport' && cat.distKm != null &&
                     <span className="cat-dist"> {cat.distKm}km</span>}
+                  {key === 'beach' && cat.source === 'access-pins' &&
+                    <span className="cat-dist"> {cat.distM}m</span>}
                 </span>
               </div>
             )
           })}
+          {condo.breakdown.beach?.noCrossing && (
+            <div className="listing-fees">{strings?.noCrossing}</div>
+          )}
         </div>
       )}
     </div>
